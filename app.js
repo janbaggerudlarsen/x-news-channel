@@ -4,7 +4,7 @@
   const $ = (id) => document.getElementById(id);
   const stage = $('stage');
   const W = 854, H = 480;
-  let cfg = { title: 'X News Channel', timezone: 'Europe/Warsaw', page_seconds: 16, max_per_page: 6,
+  let cfg = { title: 'X News Channel', timezone: 'Europe/Warsaw', page_seconds: 10, max_per_page: 3,
               stale_hours: 12, reload_minutes: 10, categories: [] };
   let autoStarted = false;
   let news = null, pages = [], idx = 0, paused = false, timer = null, newsError = null;
@@ -39,6 +39,15 @@
   };
 
   // ---- data ----
+  // ---- text fit: shrink until the text fits its box (headlines may use 2 lines), down to 66 % ----
+  const fitEl = (el) => {
+    el.style.fontSize = ''; const base = parseFloat(getComputedStyle(el).fontSize); let fs = base;
+    const multi = el.classList.contains('h');
+    const over = () => multi ? el.scrollHeight > el.clientHeight + 1 : el.scrollWidth > el.clientWidth + 1;
+    while (over() && fs > base * 0.66) { fs -= 0.5; el.style.fontSize = fs + 'px'; }
+  };
+  const fitAll = (root) => (root || stage).querySelectorAll('#stories .h, #stories .s, .empty .h, [data-fit]').forEach(fitEl);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(() => { fitAll(); fitAll(document.querySelector('.header')); });
   const getJSON = async (u) => { const r = await fetch(`${u}?t=${Date.now()}`, { cache: 'no-store' }); if (!r.ok) throw new Error(`${u}: HTTP ${r.status}`); return r.json(); };
   const load = async () => {
     try { cfg = { ...cfg, ...(await getJSON('config.json')) }; } catch (e) { /* keep defaults */ }
@@ -51,11 +60,14 @@
     const byId = {};
     (news?.categories || []).forEach((c) => { byId[c.id] = c; });
     const order = cfg.categories.length ? cfg.categories : (news?.categories || []);
-    pages = order.map((c) => {
-      const n = byId[c.id] || {};
-      return { id: c.id, title: c.title || n.title, top: c.top || c.title || n.title, bottom: c.bottom || 'Headlines',
-               stories: (n.stories || []).slice(0, cfg.max_per_page || 6) };
-    }).filter((p) => p.stories.length);
+    // light Weatherscan look: max 3 short headlines per screen; a category rotates over several screens
+    const per = Math.min(cfg.max_per_page || 3, 4);
+    pages = order.flatMap((c) => {
+      const n = byId[c.id] || {}; const all = (n.stories || []).slice(0, cfg.max_per_category || 6); const out = [];
+      for (let i = 0; i < all.length; i += per) out.push({ id: c.id, title: c.title || n.title, top: c.top || c.title || n.title,
+        bottom: c.bottom || 'Headlines', stories: all.slice(i, i + per), part: i / per + 1, parts: Math.ceil(all.length / per) });
+      return out;
+    });
     const start = qs.get('page');
     if (start) { const i = pages.findIndex((p) => p.id === start); if (i >= 0) idx = i; }
     if (idx >= pages.length) idx = 0;
@@ -72,9 +84,12 @@
     if (!t) { el.textContent = 'NO NEWS DATA YET'; el.className = 'old'; return; }
     const d = new Date(t);
     const hhmm = fmt(d, { hour: '2-digit', minute: '2-digit', hour12: false });
-    const sameDay = fmt(d, { dateStyle: 'short' }) === fmt(new Date(), { dateStyle: 'short' });
-    el.textContent = `UPDATED ${sameDay ? '' : fmt(d, { weekday: 'short' }).toUpperCase() + ' '}${hhmm}` + (isOld() ? ' (OLD)' : '');
+    const day = `${fmt(d, { weekday: 'short' }).toUpperCase()} ${fmt(d, { day: 'numeric' })} ${fmt(d, { month: 'short' }).toUpperCase()}`;
+    const m = Math.max(0, Math.floor((Date.now() - t) / 60000));
+    const ago2 = m < 1 ? 'JUST NOW' : m < 60 ? `${m} MIN AGO` : m < 48 * 60 ? `${Math.floor(m / 60)} H AGO` : `${Math.floor(m / 1440)} DAYS AGO`;
+    el.textContent = `UPDATED ${day} ${hhmm} - ${ago2}` + (isOld() ? ' (OLD)' : '');
     el.className = isOld() ? 'old' : '';
+    fitEl(el);
   };
 
   const renderTicker = () => {
@@ -109,9 +124,11 @@
       const p = pages[idx];
       $('tTop').textContent = p.top; $('tBottom').textContent = p.bottom;
       ol.innerHTML = p.stories.map((s) =>
-        `<li data-url="${esc(s.url)}" title="${esc(s.title)}"><div class="h">${esc(s.title)}</div>` +
-        `<div class="s"><span class="ago">${ago(s.time)}</span>${esc(s.summary)}</div></li>`).join('');
-      $('pageno').textContent = `${p.title.toUpperCase()} \u00b7 PAGE ${idx + 1} OF ${pages.length}`;
+        `<li data-url="${esc(s.url)}" title="${esc(s.full_title || s.title)}"><div class="h">${esc(s.title)}</div>` +
+        `<div class="s"><span class="ago">${ago(s.time)}</span> ON X</div></li>`).join('');
+      ol.style.counterReset = `n ${(p.part - 1) * p.stories.length > 0 ? (p.part - 1) * Math.min(cfg.max_per_page || 3, 4) : 0}`;
+      fitAll(ol);
+      $('pageno').textContent = `${p.title.toUpperCase()}${p.parts > 1 ? ` ${p.part}/${p.parts}` : ''} - ${idx + 1}/${pages.length}`; fitEl($('pageno'));
       document.title = `${p.title} — ${cfg.title || 'X News Channel'}`;
     };
     if (instant) paint(); else { ol.classList.add('out'); setTimeout(() => { paint(); ol.classList.remove('out'); }, 450); }
@@ -182,6 +199,7 @@
   addEventListener('mousemove', () => { $('controls').classList.add('show'); clearTimeout(hideT); hideT = setTimeout(() => $('controls').classList.remove('show'), 2500); });
 
   load();
+  setInterval(renderStatus, 30000);   // keeps 'N MIN / H AGO' live
   setInterval(async () => {
     try { const n = await getJSON('news.json'); if (n.generated_at !== news?.generated_at) { news = n; newsError = null; build(); } else renderStatus(); }
     catch (e) { newsError = e; renderStatus(); }

@@ -117,6 +117,16 @@ body.kiosk #controls { display: none; }
 }
 body.no-player #webamp { visibility: hidden !important; }
 
+/* ---- light pass (Nov 2026): 3 short headlines per screen, big type, no body text ---- */
+#stories li { height: 84px; padding: 6px 0 0 44px; margin-bottom: 0; box-sizing: border-box; }
+#stories li::before { font-size: 28px; top: 10px; width: 32px; }
+#stories .h { font: 25px/1.2 'Star4000', 'DejaVu Sans Condensed', 'DejaVu Sans', sans-serif; white-space: normal;
+  height: 60px; overflow: hidden; text-overflow: clip; display: flex; align-items: center; }
+#stories .s { font: 13px/1 'Star4000 Small', 'DejaVu Sans Condensed', sans-serif; letter-spacing: 1px; color: #8fb0ff; margin-top: 2px; }
+#stories .s .ago { margin-right: 2px; }
+.status { gap: 16px; font-size: 14px; color: #a9c2ff; }
+.status #updated, .status #pageno { flex: 0 1 auto; min-width: 0; white-space: nowrap; overflow: hidden; }
+
 /* public site: always-visible small disclaimer + credit line */
 #disclaimer { position: fixed; left: 50%; bottom: 4px; transform: translateX(-50%); z-index: 5; max-width: 96vw; text-align: center;
   font: 11px/1.35 'DejaVu Sans', sans-serif; color: rgba(201,212,255,.75); text-shadow: 0 0 3px #000; pointer-events: auto; }
