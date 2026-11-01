@@ -1,0 +1,478 @@
+{
+ "title": "X News Channel",
+ "station": "X NEWS",
+ "timezone": "Europe/Warsaw",
+ "page_seconds": 16,
+ "max_per_page": 6,
+ "stale_hours": 12,
+ "reload_minutes": 10,
+ "autoplay": true,
+ "categories": [
+  {
+   "id": "grokbot",
+   "title": "Grok Bot",
+   "top": "Grok Bot",
+   "bottom": "News",
+   "max_age_hours": 72,
+   "queries": [
+    "Grok Bot",
+    "GrokBot",
+    "xAI Grok"
+   ],
+   "match": {
+    "title_text": [
+     "\\bGrok\\b",
+     "\\bxAI\\b",
+     "SpaceXAI"
+    ]
+   },
+   "exclude": {
+    "title_text": [
+     "Rank Their",
+     "Worst Past Tweets",
+     "Intelligence Chart",
+     "Tag Grok",
+     "Ask Grok"
+    ],
+    "head_text": [
+     "Democrats",
+     "Maduro"
+    ]
+   },
+   "boost": {
+    "title_text": [
+     "Grok Bot"
+    ]
+   }
+  },
+  {
+   "id": "ai",
+   "title": "AI",
+   "top": "Artificial",
+   "bottom": "Intelligence",
+   "max_age_hours": 24,
+   "queries": [
+    "OpenAI",
+    "Anthropic Claude",
+    "Google Gemini DeepMind",
+    "AI model release"
+   ],
+   "match": {
+    "topics": [
+     "AI"
+    ],
+    "title_text": [
+     "OpenAI",
+     "Anthropic",
+     "Claude",
+     "Gemini",
+     "DeepMind",
+     "GPT",
+     "DeepSeek",
+     "Nvidia",
+     "Meta AI",
+     "Llama",
+     "Mistral",
+     "LeCun",
+     "Altman",
+     "\\bAI\\b",
+     "\\bmodels?\\b"
+    ]
+   },
+   "exclude": {
+    "title_text": [
+     "Life Advice",
+     "Tier List",
+     "Irony",
+     "Bland",
+     "Commission",
+     "Dojo",
+     "Artists Face",
+     "Religio",
+     "Tax Returns",
+     "Share Guides",
+     "Debate Over",
+     "Morse Code",
+     "Crypto",
+     "Modeling Agency"
+    ]
+   },
+   "boost": {
+    "news_category": [
+     "News"
+    ],
+    "title_text": [
+     "OpenAI",
+     "Anthropic",
+     "Claude",
+     "Gemini",
+     "DeepMind",
+     "GPT",
+     "DeepSeek",
+     "Nvidia",
+     "LeCun"
+    ]
+   }
+  },
+  {
+   "id": "technology",
+   "title": "Technology",
+   "top": "Technology",
+   "bottom": "Headlines",
+   "max_age_hours": 24,
+   "queries": [
+    "technology",
+    "Apple Google Microsoft Tesla tech"
+   ],
+   "match": {
+    "topics": [
+     "Technology",
+     "Robotics",
+     "Space",
+     "Science",
+     "Gadgets",
+     "Stocks",
+     "Business & Finance"
+    ]
+   },
+   "exclude": {
+    "title_text": [
+     "Fake Screenshots",
+     "Don Jazzy",
+     "Ghana",
+     "X Links Reveal",
+     "Halloween",
+     "Debate",
+     "Religion",
+     "Elections",
+     "Tokenized"
+    ]
+   },
+   "boost": {
+    "title_text": [
+     "Apple",
+     "Microsoft",
+     "Google",
+     "Tesla",
+     "SpaceX",
+     "Nvidia",
+     "iPhone",
+     "MacBook",
+     "chip",
+     "Neuralink",
+     "Samsung",
+     "Intel",
+     "AMD"
+    ]
+   }
+  },
+  {
+   "id": "politics",
+   "title": "Politics",
+   "top": "World",
+   "bottom": "Politics",
+   "max_age_hours": 24,
+   "round_robin": true,
+   "queries": [
+    "European Union",
+    "EU Commission Brussels",
+    "world leaders summit diplomacy",
+    "Ukraine Russia war",
+    "Germany France UK government",
+    "White House Congress"
+   ],
+   "match": {
+    "topics": [
+     "Politics",
+     "Elections"
+    ],
+    "news_category": [
+     "News"
+    ]
+   },
+   "exclude": {
+    "title_text": [
+     "Poland",
+     "Polish",
+     "Satirical",
+     "Kid Rock",
+     "Big Balls",
+     "Nicki Minaj",
+     "Daylight Saving",
+     "Mock Impeachment",
+     "Podcast and Chill",
+     "Military Spouses",
+     "Reformation",
+     "Portrait",
+     "Bobi Wine",
+     "Drone Video",
+     "Census",
+     "Thune",
+     "Divorce"
+    ],
+    "news_category": [
+     "Sports",
+     "Entertainment"
+    ]
+   },
+   "boost": {
+    "title_text": [
+     "\\bEU\\b",
+     "Europe",
+     "G20",
+     "Zelensk",
+     "Putin",
+     "Merz",
+     "Macron",
+     "Starmer",
+     "Trump",
+     "NATO",
+     "Xi\\b",
+     "Lagarde",
+     "Summit"
+    ]
+   }
+  },
+  {
+   "id": "culture",
+   "title": "Culture",
+   "top": "Arts &",
+   "bottom": "Culture",
+   "max_age_hours": 48,
+   "round_robin": true,
+   "queries": [
+    "art exhibition museum",
+    "books literature novel author",
+    "new album music release"
+   ],
+   "match": {
+    "topics": [
+     "Art",
+     "Books",
+     "Music",
+     "Hip Hop",
+     "Podcasts",
+     "History",
+     "Photography",
+     "Education"
+    ],
+    "title_text": [
+     "Museum",
+     "Exhibition",
+     "Novel",
+     "Book",
+     "Album",
+     "Author",
+     "Poet",
+     "Painting",
+     "Sistine",
+     "Newspaper"
+    ]
+   },
+   "exclude": {
+    "title_text": [
+     "Fans (Mock|Celebrate|Eye|Split|Enjoy|Create|Turn|Adore|Rally|Decode|Share|Push)|Meme|Tier List|Halloween|Hottieween|Xtinaween|Costume",
+     "Christmas",
+     "Diwali",
+     "Reading Wrap",
+     "Concept Photos",
+     "Teaser",
+     "Snippet",
+     "Mayor",
+     "Modi",
+     "Pennies",
+     "Posters",
+     "Dafoe",
+     "Gatsby",
+     "Police Procedural",
+     "Daily Picture",
+     "Grillz"
+    ],
+    "topics": [
+     "Celebrity",
+     "K-pop",
+     "Religion",
+     "Fashion",
+     "Anime",
+     "Gaming",
+     "Movies & TV",
+     "Memes"
+    ]
+   },
+   "boost": {
+    "title_text": [
+     "Museum",
+     "Exhibition",
+     "Book",
+     "Novel",
+     "Album",
+     "Author",
+     "Caro",
+     "Keats",
+     "Michelangelo"
+    ]
+   }
+  },
+  {
+   "id": "sport",
+   "title": "Sport",
+   "top": "Sports",
+   "bottom": "Headlines",
+   "max_age_hours": 24,
+   "round_robin": true,
+   "queries": [
+    "Premier League Champions League",
+    "Formula 1 Grand Prix",
+    "tennis ATP WTA",
+    "NFL NBA"
+   ],
+   "match": {
+    "news_category": [
+     "Sports"
+    ]
+   },
+   "exclude": {
+    "text": [
+     "sportybet",
+     "betting",
+     "\\bodds\\b",
+     "bettor"
+    ],
+    "title_text": [
+     "Fans (Mock|Celebrate|Eye|Split|Enjoy|Create|Turn|Adore|Rally|Decode|Share|Push)|Meme|Tier List|Halloween|Hottieween|Xtinaween|Costume",
+     "Fined",
+     "Fines",
+     "Relaxes",
+     "Fan Event",
+     "Puns",
+     "Left Hanging",
+     "Rival",
+     "Rosberg Returns",
+     "Regret",
+     "^[A-Z][a-z]+:",
+     "\\bHosts?\\b",
+     "\\bFace\\b",
+     "Ahead of",
+     "Preview"
+    ]
+   },
+   "boost": {
+    "title_text": [
+     "Wins?\\b",
+     "Beats",
+     "Title",
+     "Pole",
+     "Champion",
+     "Final",
+     "Victory",
+     "\\d+-\\d+"
+    ]
+   }
+  },
+  {
+   "id": "celebrity",
+   "title": "Celebrity",
+   "top": "Celebrity",
+   "bottom": "News",
+   "max_age_hours": 24,
+   "queries": [
+    "celebrity news",
+    "Hollywood actor actress singer"
+   ],
+   "match": {
+    "topics": [
+     "Celebrity",
+     "Hip Hop",
+     "Concerts",
+     "Fashion",
+     "Music"
+    ]
+   },
+   "exclude": {
+    "topics": [
+     "Movies & TV"
+    ],
+    "title_text": [
+     "Fans (Mock|Celebrate|Eye|Split|Enjoy|Create|Turn|Adore|Rally|Decode|Share|Push)|Meme|Tier List|Halloween|Hottieween|Xtinaween|Costume",
+     "Photos Spark",
+     "Recognition",
+     "Appearance Chatter",
+     "Romance Buzz",
+     "Outfit Photos"
+    ]
+   },
+   "boost": {
+    "title_text": [
+     "Divorce",
+     "Marriage",
+     "Married",
+     "Engaged",
+     "Birthday",
+     "Dies",
+     "Award",
+     "Tribute",
+     "Charit"
+    ]
+   }
+  },
+  {
+   "id": "movies",
+   "title": "Movies & Series",
+   "top": "Movies &",
+   "bottom": "Series",
+   "max_age_hours": 24,
+   "round_robin": true,
+   "queries": [
+    "movies box office",
+    "Netflix HBO series streaming",
+    "Hollywood film trailer"
+   ],
+   "match": {
+    "topics": [
+     "Movies & TV"
+    ]
+   },
+   "exclude": {
+    "title_text": [
+     "Fans (Mock|Celebrate|Eye|Split|Enjoy|Create|Turn|Adore|Rally|Decode|Share|Push)|Meme|Tier List|Halloween|Hottieween|Xtinaween|Costume",
+     "Malfoid",
+     "torrent",
+     "Parody Clip",
+     "Single Drops",
+     "Song",
+     "Cast Reunites",
+     "Promotions",
+     "Diwali",
+     "Single",
+     "Telugu",
+     "Tamil",
+     "Kerala",
+     "Karnataka",
+     "Rajyotsava",
+     "BookMyShow",
+     "Crore",
+     "Kannada",
+     "Malayalam",
+     "Hindi",
+     "Bollywood"
+    ]
+   },
+   "boost": {
+    "title_text": [
+     "Box Office",
+     "Season",
+     "Premiere",
+     "Trailer",
+     "Netflix",
+     "HBO",
+     "Paramount",
+     "Disney",
+     "Avengers",
+     "Dune",
+     "Harry Potter",
+     "\\$\\d"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,141 @@
+Music for the local weather channel, X News Channel and their screensavers
+=========================================================================
+Music: CC0 tracks as used by Multiplex.FM Weather.
+Inspired by Multiplex Weather by Brian Roemmele (@BrianRoemmele) - https://multiplexweather.com - https://x.com/BrianRoemmele
+Music selection from Multiplex.FM Weather (same channels and tracks). Multiplex.FM is a property of Brian Roemmele;
+no Multiplex.FM station IDs, chimes, voice breaks or branding are included here - only the freely licensed music.
+
+Licenses: CC0 1.0 Universal (https://creativecommons.org/publicdomain/zero/1.0/) or US public domain sound recordings
+(published before 1926; 17 USC 1401, Music Modernization Act). Public-domain status outside the US is not guaranteed by these notes.
+
+[Standard (smooth jazz)]  (15 tracks)
+  HoliznaCC0 - "1 (jazz)" | CC0 1.0
+      source: https://freemusicarchive.org/music/holiznacc0/busted-guitar-jazz/1-jazz/
+  HoliznaCC0 - "2 (jazz)" | CC0 1.0
+      source: https://freemusicarchive.org/music/holiznacc0/busted-guitar-jazz/2-jazz/
+  HoliznaCC0 - "3 (jazz)" | CC0 1.0
+      source: https://freemusicarchive.org/music/holiznacc0/busted-guitar-jazz/3-jazz/
+  HoliznaCC0 - "4 (jazz)" | CC0 1.0
+      source: https://freemusicarchive.org/music/holiznacc0/busted-guitar-jazz/4-jazz/
+  HoliznaCC0 - "Busted Jazz" | CC0 1.0
+      source: https://freemusicarchive.org/music/holiznacc0/lo-fi-and-chill/busted-jazz
+  HoliznaCC0 - "Morning Coffee" | CC0 1.0
+      source: https://freemusicarchive.org/music/holiznacc0/lo-fi-and-chill/morning-coffee/
+  HoliznaCC0 - "A Little Shade" | CC0 1.0
+      source: https://freemusicarchive.org/music/holiznacc0/lo-fi-and-chill/a-little-shade/
+  HoliznaCC0 - "Vintage" | CC0 1.0
+      source: https://freemusicarchive.org/music/holiznacc0/lo-fi-and-chill/vintagemp3/
+  HoliznaCC0 - "Glad To Be Stuck Inside" | CC0 1.0
+      source: https://freemusicarchive.org/music/holiznacc0/lo-fi-and-chill/glad-to-be-stuck-insidemp3/
+  HoliznaCC0 - "Autumn" | CC0 1.0
+      source: https://freemusicarchive.org/music/holiznacc0/lo-fi-and-chill/autumn/
+  HoliznaCC0 - "Clouds" | CC0 1.0
+      source: https://freemusicarchive.org/music/holiznacc0/lo-fi-and-chill/clouds-6/
+  HoliznaCC0 - "Seasons Change" | CC0 1.0
+      source: https://freemusicarchive.org/music/holiznacc0/lo-fi-and-chill/seasons-change/
+  HoliznaCC0 - "Foggy Headed" | CC0 1.0
+      source: https://freemusicarchive.org/music/holiznacc0/lo-fi-and-chill/foggy-headed/
+  HoliznaCC0 - "Creature Comforts" | CC0 1.0
+      source: https://freemusicarchive.org/music/holiznacc0/lo-fi-and-chill/creature-comforts/
+  HoliznaCC0 - "Letting Go Of The Past" | CC0 1.0
+      source: https://freemusicarchive.org/music/holiznacc0/lo-fi-and-chill/letting-go-of-the-past/
+
+[Ambient]  (14 tracks)
+  Loyalty Freak Music - "Once more with you" | CC0 1.0
+      source: https://archive.org/details/MINIMALAMBIENTBOUNCE
+  Loyalty Freak Music - "One Cool Minute" | CC0 1.0
+      source: https://archive.org/details/MINIMALAMBIENTBOUNCE
+  Loyalty Freak Music - "Static Shoes" | CC0 1.0
+      source: https://archive.org/details/MINIMALAMBIENTBOUNCE
+  Loyalty Freak Music - "Lag" | CC0 1.0
+      source: https://archive.org/details/MINIMALAMBIENTBOUNCE
+  Loyalty Freak Music - "Old Key" | CC0 1.0
+      source: https://archive.org/details/MINIMALAMBIENTBOUNCE
+  Loyalty Freak Music - "Waiting TTTT" | CC0 1.0
+      source: https://archive.org/details/MINIMALAMBIENTBOUNCE
+  Loyalty Freak Music - "No Cadillac" | CC0 1.0
+      source: https://archive.org/details/MINIMALAMBIENTBOUNCE
+  Loyalty Freak Music - "Lack of Color - Drowning in your smile" | CC0 1.0
+      source: https://archive.org/details/loyalty-freak-music-lofi-ambient-songs
+  Loyalty Freak Music - "Lack of Color - Aeroplane" | CC0 1.0
+      source: https://archive.org/details/loyalty-freak-music-lofi-ambient-songs
+  Loyalty Freak Music - "Lack of Color - I'm glad you are here with me" | CC0 1.0
+      source: https://archive.org/details/loyalty-freak-music-lofi-ambient-songs
+  Loyalty Freak Music - "This pain is soft but here" | CC0 1.0
+      source: https://archive.org/details/loyalty-freak-music-lofi-ambient-songs
+  Loyalty Freak Music - "I hope you're happy" | CC0 1.0
+      source: https://archive.org/details/loyalty-freak-music-lofi-ambient-songs
+  Loyalty Freak Music - "Lack of Color - Sugar and coffee" | CC0 1.0
+      source: https://archive.org/details/loyalty-freak-music-lofi-ambient-songs
+  Loyalty Freak Music - "Soft as a dry pillow" | CC0 1.0
+      source: https://archive.org/details/loyalty-freak-music-chill-for-real
+
+[78 RPMs (1917-1925)]  (14 tracks)
+  Original Dixieland Jass Band - "Livery Stable Blues" (1917, Victor 18255-B) | Public domain (US, pre-1926)
+      source: https://archive.org/details/original-dixieland-jass-band-livery-stable-blues-victor-18255-b
+  Lt. Jim Europe's 369th U.S. Infantry Hell Fighters Band - "Memphis Blues" (1919, Pathe 22085) | Public domain (US, pre-1926)
+      source: https://archive.org/details/78_memphis-blues_lieut-jim-europes-369th-u-s-inf-hell-fighters-band-handy_gbia0298581b
+  Mamie Smith and Her Jazz Hounds - "Crazy Blues" (1920, Okeh 4169) | Public domain (US, pre-1926)
+      source: https://archive.org/details/MamieSmithHerJazzHounds
+  Lucille Hegamin - "Everybody's Blues" (1920, Arto 9045) | Public domain (US, pre-1926)
+      source: https://archive.org/details/78_everybodys-blues_harris-blues-and-jazz-seven-lucille-hegamin-tom-delaney_gbia0270347b
+  Ethel Waters - "Jazzin' Babies Blues" (1922, Black Swan 14117) | Public domain (US, pre-1926)
+      source: https://archive.org/details/78_jazzin-babies-blues_ethel-waters-and-joe-smiths-jazz-masters-richard-jones_gbia0363130a
+  Trixie Smith - "My Man Rocks Me (With One Steady Roll)" (1922, Black Swan 14127) | Public domain (US, pre-1926)
+      source: https://archive.org/details/78_my-man-rocks-me-with-one-steady-roll_trixie-smith-and-the-jazz-masters-j-berni-barb_gbia0545015b
+  Alberta Hunter - "Chirping the Blues" (1923, Paramount (mx 1321)) | Public domain (US, pre-1926)
+      source: https://archive.org/details/78_chirping-the-blues_alberta-hunter-fletcher-henderson_gbia0418706a
+  Bessie Smith - "Down Hearted Blues" (1923, Columbia A3844) | Public domain (US, pre-1926)
+      source: https://archive.org/details/loc-jukebox-670189-down-hearted-blues
+  Sara Martin - "Leave My Sweet Daddy Alone" (1923, Okeh 8065) | Public domain (US, pre-1926)
+      source: https://archive.org/details/78_leave-my-sweet-daddy-alone_sara-martin-clarence-williams_gbia0026894a
+  Ma Rainey - "Those Dogs of Mine (Famous Cornfield Blues)" (1924, Paramount 12215 (American Music reissue pressing)) | Public domain (US, pre-1926)
+      source: https://archive.org/details/78_those-dogs-of-mine-famous-cornfield-blues_ma-rainey_gbia0420866a
+  Ma Rainey and Her Georgia Jazz Band - "Jelly Bean Blues" (1924, Paramount 12238) | Public domain (US, pre-1926)
+      source: https://archive.org/details/jelly-bean-blues
+  Bessie Smith - "Careless Love Blues" (1925, Columbia 14083-D) | Public domain (US, pre-1926)
+      source: https://archive.org/details/bessie-smith-careless-love-blues
+  Bessie Smith - "Yellow Dog Blues" (1925, Columbia 14075-D) | Public domain (US, pre-1926)
+      source: https://archive.org/details/78_yellow-dog-blues_bessie-smith-hendersons-hot-six_gbia0464774a
+  Ferera and Paaluhi - "The St. Louis Blues" (1925, Edison 51616) | Public domain (US, pre-1926)
+      source: https://archive.org/details/78_the-st-louis-blues_ferera-and-paaluhi-w-c-handy_gbia0264780a
+
+[Sci-Fi Soundtracks]  (6 tracks)
+  HoliznaCC0 - "Somethings Out There" (Stranger Than Fiction (Halloween / Sci Fi), 2022) | CC0 1.0
+      source: https://freemusicarchive.org/music/holiznacc0/stranger-than-fiction-halloween-sci-fi/somethings-out-there/
+  HoliznaCC0 - "Sky Fish" (Stranger Than Fiction (Halloween / Sci Fi), 2022) | CC0 1.0
+      source: https://freemusicarchive.org/music/holiznacc0/stranger-than-fiction-halloween-sci-fi/sky-fish/
+  HoliznaCC0 - "Little Green Men" (Stranger Than Fiction (Halloween / Sci Fi), 2022) | CC0 1.0
+      source: https://freemusicarchive.org/music/holiznacc0/stranger-than-fiction-halloween-sci-fi/little-green-men/
+  HoliznaCC0 - "An Ocean in Outer Space" (Stranger Than Fiction (Halloween / Sci Fi), 2022) | CC0 1.0
+      source: https://freemusicarchive.org/music/holiznacc0/stranger-than-fiction-halloween-sci-fi/an-ocean-in-outer-space/
+  HoliznaCC0 - "Burning In The Atmosphere" (Stranger Than Fiction (Halloween / Sci Fi), 2022) | CC0 1.0
+      source: https://freemusicarchive.org/music/holiznacc0/stranger-than-fiction-halloween-sci-fi/burning-in-the-atmosphere/
+  HoliznaCC0 - "Cosmic Waves" (Space - Sleep - Meditation, 2022) | CC0 1.0
+      source: https://freemusicarchive.org/music/holiznacc0/space-sleep-meditation/cosmic-waves/ | Edited: first 5:00 of the 33:05 original, 2 s fade-in, 5 s fade-out
+
+[Hawaiian (1916-1922)]  (9 tracks)
+  Waikiki Hawaiian Orchestra - "Hawaiian twilight" (1920, Edison Blue Amberol 4138 (Diamond Disc matrix 7417)) | Public domain (US, published before 1923)
+      source: https://cylinders.library.ucsb.edu/detail.php?query_type=mms_id&query=990025569050203776 | credit: University of California, Santa Barbara Library
+  Toots Paka's Hawaiians - "Wailana waltz (Drowsy waters)" (1920, Edison Blue Amberol 4121 (Diamond Disc matrix 7135)) | Public domain (US, published before 1923)
+      source: https://cylinders.library.ucsb.edu/detail.php?query_type=mms_id&query=990025266970203776 | credit: University of California, Santa Barbara Library
+  Waikiki Hawaiian Orchestra - "Dreamy Hawaii (waltz)" (1922, Edison Blue Amberol 4419 (Diamond Disc matrix 8072)) | Public domain (US, published before 1923)
+      source: https://cylinders.library.ucsb.edu/detail.php?query_type=mms_id&query=990025240870203776 | credit: University of California, Santa Barbara Library
+  Helen Louise & Palakiko Ferreira [Frank Ferera] - "Hapa haole hula girl" (1916, Edison Blue Amberol 2956 (Diamond Disc matrix 4600)) | Public domain (US, published before 1923)
+      source: https://cylinders.library.ucsb.edu/detail.php?query_type=mms_id&query=990025263890203776 | credit: University of California, Santa Barbara Library
+  Waikiki Hawaiian Orchestra with Louise & Ferera - "Hawaiian nights (waltz)" (1919, Edison Blue Amberol 3656 (Diamond Disc matrix 6209)) | Public domain (US, published before 1923)
+      source: https://cylinders.library.ucsb.edu/detail.php?query_type=mms_id&query=990027526620203776 | credit: University of California, Santa Barbara Library
+  Waikiki Hawaiian Orchestra - "Hawaiian smiles" (1920, Edison Blue Amberol 4052 (Diamond Disc matrix 7147)) | Public domain (US, published before 1923)
+      source: https://cylinders.library.ucsb.edu/detail.php?query_type=mms_id&query=990025263380203776 | credit: University of California, Santa Barbara Library
+  Waikiki Hawaiian Orchestra (Louise & Ferera, Hawaiian guitars) - "Kiss me again waltz" (1918, Edison Blue Amberol 3526 (Diamond Disc matrix 6140)) | Public domain (US, published before 1923)
+      source: https://cylinders.library.ucsb.edu/detail.php?query_type=mms_id&query=990026816080203776 | credit: University of California, Santa Barbara Library
+  Helen Louise & Frank Ferera - "Hawaiian hula medley" (1917, Edison Blue Amberol 3065 (Diamond Disc matrix 4967)) | Public domain (US, published before 1923)
+      source: https://cylinders.library.ucsb.edu/detail.php?query_type=mms_id&query=990026561460203776 | credit: University of California, Santa Barbara Library
+  Waikiki Hawaiian Orchestra - "Beautiful Hawaii (waltz)" (1920, Edison Blue Amberol 4069 (Diamond Disc matrix 7245)) | Public domain (US, published before 1923)
+      source: https://cylinders.library.ucsb.edu/detail.php?query_type=mms_id&query=990025263540203776 | credit: University of California, Santa Barbara Library
+
+Sources: Free Music Archive (HoliznaCC0, https://freemusicarchive.org/music/holiznacc0), Internet Archive (Loyalty Freak Music;
+78 RPM transfers), University of California, Santa Barbara Library - UCSB Cylinder Audio Archive (https://cylinders.library.ucsb.edu/).
+Ambient tracks were downloaded from the original Internet Archive items; the other files are copies of the CC0/public-domain
+files served by multiplexweather.com (trimmed / loudness-matched there). Player: Webamp (MIT), https://github.com/captbaritone/webamp
+Track metadata: channels.json. Collected 2026-11-01 by Grok Bot.

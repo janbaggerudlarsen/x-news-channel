@@ -1,0 +1,627 @@
+{
+ "about": "Music: CC0 / public-domain tracks as used by Multiplex.FM Weather (https://multiplexweather.com, by Brian Roemmele). See CREDITS.txt.",
+ "default": "standard",
+ "volume": 0.55,
+ "channels": [
+  {
+   "id": "standard",
+   "name": "Standard (smooth jazz)",
+   "tracks": [
+    {
+     "file": "standard/holizna-jazz-1.mp3",
+     "title": "1 (jazz)",
+     "artist": "HoliznaCC0",
+     "license": "CC0 1.0",
+     "source": "https://freemusicarchive.org/music/holiznacc0/busted-guitar-jazz/1-jazz/",
+     "duration_s": 123.0,
+     "copy_from": "multiplexweather.com copy of this CC0/public-domain track (trimmed/loudness-matched there)"
+    },
+    {
+     "file": "standard/holizna-jazz-2.mp3",
+     "title": "2 (jazz)",
+     "artist": "HoliznaCC0",
+     "license": "CC0 1.0",
+     "source": "https://freemusicarchive.org/music/holiznacc0/busted-guitar-jazz/2-jazz/",
+     "duration_s": 164.1,
+     "copy_from": "multiplexweather.com copy of this CC0/public-domain track (trimmed/loudness-matched there)"
+    },
+    {
+     "file": "standard/holizna-jazz-3.mp3",
+     "title": "3 (jazz)",
+     "artist": "HoliznaCC0",
+     "license": "CC0 1.0",
+     "source": "https://freemusicarchive.org/music/holiznacc0/busted-guitar-jazz/3-jazz/",
+     "duration_s": 162.2,
+     "copy_from": "multiplexweather.com copy of this CC0/public-domain track (trimmed/loudness-matched there)"
+    },
+    {
+     "file": "standard/holizna-jazz-4.mp3",
+     "title": "4 (jazz)",
+     "artist": "HoliznaCC0",
+     "license": "CC0 1.0",
+     "source": "https://freemusicarchive.org/music/holiznacc0/busted-guitar-jazz/4-jazz/",
+     "duration_s": 256.5,
+     "copy_from": "multiplexweather.com copy of this CC0/public-domain track (trimmed/loudness-matched there)"
+    },
+    {
+     "file": "standard/holizna-busted-jazz.mp3",
+     "title": "Busted Jazz",
+     "artist": "HoliznaCC0",
+     "license": "CC0 1.0",
+     "source": "https://freemusicarchive.org/music/holiznacc0/lo-fi-and-chill/busted-jazz",
+     "duration_s": 149.3,
+     "copy_from": "multiplexweather.com copy of this CC0/public-domain track (trimmed/loudness-matched there)"
+    },
+    {
+     "file": "standard/holizna-morning-coffee.mp3",
+     "title": "Morning Coffee",
+     "artist": "HoliznaCC0",
+     "license": "CC0 1.0",
+     "source": "https://freemusicarchive.org/music/holiznacc0/lo-fi-and-chill/morning-coffee/",
+     "duration_s": 192.0,
+     "copy_from": "multiplexweather.com copy of this CC0/public-domain track (trimmed/loudness-matched there)"
+    },
+    {
+     "file": "standard/holizna-a-little-shade.mp3",
+     "title": "A Little Shade",
+     "artist": "HoliznaCC0",
+     "license": "CC0 1.0",
+     "source": "https://freemusicarchive.org/music/holiznacc0/lo-fi-and-chill/a-little-shade/",
+     "duration_s": 178.6,
+     "copy_from": "multiplexweather.com copy of this CC0/public-domain track (trimmed/loudness-matched there)"
+    },
+    {
+     "file": "standard/holizna-vintage.mp3",
+     "title": "Vintage",
+     "artist": "HoliznaCC0",
+     "license": "CC0 1.0",
+     "source": "https://freemusicarchive.org/music/holiznacc0/lo-fi-and-chill/vintagemp3/",
+     "duration_s": 174.0,
+     "copy_from": "multiplexweather.com copy of this CC0/public-domain track (trimmed/loudness-matched there)"
+    },
+    {
+     "file": "standard/holizna-glad-to-be-stuck-inside.mp3",
+     "title": "Glad To Be Stuck Inside",
+     "artist": "HoliznaCC0",
+     "license": "CC0 1.0",
+     "source": "https://freemusicarchive.org/music/holiznacc0/lo-fi-and-chill/glad-to-be-stuck-insidemp3/",
+     "duration_s": 160.9,
+     "copy_from": "multiplexweather.com copy of this CC0/public-domain track (trimmed/loudness-matched there)"
+    },
+    {
+     "file": "standard/holizna-autumn.mp3",
+     "title": "Autumn",
+     "artist": "HoliznaCC0",
+     "license": "CC0 1.0",
+     "source": "https://freemusicarchive.org/music/holiznacc0/lo-fi-and-chill/autumn/",
+     "duration_s": 169.8,
+     "copy_from": "multiplexweather.com copy of this CC0/public-domain track (trimmed/loudness-matched there)"
+    },
+    {
+     "file": "standard/holizna-clouds.mp3",
+     "title": "Clouds",
+     "artist": "HoliznaCC0",
+     "license": "CC0 1.0",
+     "source": "https://freemusicarchive.org/music/holiznacc0/lo-fi-and-chill/clouds-6/",
+     "duration_s": 229.7,
+     "copy_from": "multiplexweather.com copy of this CC0/public-domain track (trimmed/loudness-matched there)"
+    },
+    {
+     "file": "standard/holizna-seasons-change.mp3",
+     "title": "Seasons Change",
+     "artist": "HoliznaCC0",
+     "license": "CC0 1.0",
+     "source": "https://freemusicarchive.org/music/holiznacc0/lo-fi-and-chill/seasons-change/",
+     "duration_s": 135.5,
+     "copy_from": "multiplexweather.com copy of this CC0/public-domain track (trimmed/loudness-matched there)"
+    },
+    {
+     "file": "standard/holizna-foggy-headed.mp3",
+     "title": "Foggy Headed",
+     "artist": "HoliznaCC0",
+     "license": "CC0 1.0",
+     "source": "https://freemusicarchive.org/music/holiznacc0/lo-fi-and-chill/foggy-headed/",
+     "duration_s": 246.4,
+     "copy_from": "multiplexweather.com copy of this CC0/public-domain track (trimmed/loudness-matched there)"
+    },
+    {
+     "file": "standard/holizna-creature-comforts.mp3",
+     "title": "Creature Comforts",
+     "artist": "HoliznaCC0",
+     "license": "CC0 1.0",
+     "source": "https://freemusicarchive.org/music/holiznacc0/lo-fi-and-chill/creature-comforts/",
+     "duration_s": 174.9,
+     "copy_from": "multiplexweather.com copy of this CC0/public-domain track (trimmed/loudness-matched there)"
+    },
+    {
+     "file": "standard/holizna-letting-go-of-the-past.mp3",
+     "title": "Letting Go Of The Past",
+     "artist": "HoliznaCC0",
+     "license": "CC0 1.0",
+     "source": "https://freemusicarchive.org/music/holiznacc0/lo-fi-and-chill/letting-go-of-the-past/",
+     "duration_s": 179.6,
+     "copy_from": "multiplexweather.com copy of this CC0/public-domain track (trimmed/loudness-matched there)"
+    }
+   ]
+  },
+  {
+   "id": "ambient",
+   "name": "Ambient",
+   "tracks": [
+    {
+     "file": "ambient/lfm-01.mp3",
+     "title": "Once more with you",
+     "artist": "Loyalty Freak Music",
+     "license": "CC0 1.0",
+     "source": "https://archive.org/details/MINIMALAMBIENTBOUNCE",
+     "duration_s": 183.4,
+     "copy_from": "original file from the Internet Archive item above, re-encoded 112 kbps, level-matched"
+    },
+    {
+     "file": "ambient/lfm-02.mp3",
+     "title": "One Cool Minute",
+     "artist": "Loyalty Freak Music",
+     "license": "CC0 1.0",
+     "source": "https://archive.org/details/MINIMALAMBIENTBOUNCE",
+     "duration_s": 193.0,
+     "copy_from": "original file from the Internet Archive item above, re-encoded 112 kbps, level-matched"
+    },
+    {
+     "file": "ambient/lfm-04.mp3",
+     "title": "Static Shoes",
+     "artist": "Loyalty Freak Music",
+     "license": "CC0 1.0",
+     "source": "https://archive.org/details/MINIMALAMBIENTBOUNCE",
+     "duration_s": 233.1,
+     "copy_from": "original file from the Internet Archive item above, re-encoded 112 kbps, level-matched"
+    },
+    {
+     "file": "ambient/lfm-06.mp3",
+     "title": "Lag",
+     "artist": "Loyalty Freak Music",
+     "license": "CC0 1.0",
+     "source": "https://archive.org/details/MINIMALAMBIENTBOUNCE",
+     "duration_s": 269.8,
+     "copy_from": "original file from the Internet Archive item above, re-encoded 112 kbps, level-matched"
+    },
+    {
+     "file": "ambient/lfm-03.mp3",
+     "title": "Old Key",
+     "artist": "Loyalty Freak Music",
+     "license": "CC0 1.0",
+     "source": "https://archive.org/details/MINIMALAMBIENTBOUNCE",
+     "duration_s": 157.9,
+     "copy_from": "original file from the Internet Archive item above, re-encoded 112 kbps, level-matched"
+    },
+    {
+     "file": "ambient/lfm-05.mp3",
+     "title": "Waiting TTTT",
+     "artist": "Loyalty Freak Music",
+     "license": "CC0 1.0",
+     "source": "https://archive.org/details/MINIMALAMBIENTBOUNCE",
+     "duration_s": 175.0,
+     "copy_from": "original file from the Internet Archive item above, re-encoded 112 kbps, level-matched"
+    },
+    {
+     "file": "ambient/lfm-07.mp3",
+     "title": "No Cadillac",
+     "artist": "Loyalty Freak Music",
+     "license": "CC0 1.0",
+     "source": "https://archive.org/details/MINIMALAMBIENTBOUNCE",
+     "duration_s": 171.2,
+     "copy_from": "original file from the Internet Archive item above, re-encoded 112 kbps, level-matched"
+    },
+    {
+     "file": "ambient/lfm-las-01.mp3",
+     "title": "Lack of Color - Drowning in your smile",
+     "artist": "Loyalty Freak Music",
+     "license": "CC0 1.0",
+     "source": "https://archive.org/details/loyalty-freak-music-lofi-ambient-songs",
+     "duration_s": 205.5,
+     "copy_from": "original file from the Internet Archive item above, re-encoded 112 kbps, level-matched"
+    },
+    {
+     "file": "ambient/lfm-las-03.mp3",
+     "title": "Lack of Color - Aeroplane",
+     "artist": "Loyalty Freak Music",
+     "license": "CC0 1.0",
+     "source": "https://archive.org/details/loyalty-freak-music-lofi-ambient-songs",
+     "duration_s": 134.4,
+     "copy_from": "original file from the Internet Archive item above, re-encoded 112 kbps, level-matched"
+    },
+    {
+     "file": "ambient/lfm-las-04.mp3",
+     "title": "Lack of Color - I'm glad you are here with me",
+     "artist": "Loyalty Freak Music",
+     "license": "CC0 1.0",
+     "source": "https://archive.org/details/loyalty-freak-music-lofi-ambient-songs",
+     "duration_s": 126.9,
+     "copy_from": "original file from the Internet Archive item above, re-encoded 112 kbps, level-matched"
+    },
+    {
+     "file": "ambient/lfm-las-06.mp3",
+     "title": "This pain is soft but here",
+     "artist": "Loyalty Freak Music",
+     "license": "CC0 1.0",
+     "source": "https://archive.org/details/loyalty-freak-music-lofi-ambient-songs",
+     "duration_s": 115.2,
+     "copy_from": "original file from the Internet Archive item above, re-encoded 112 kbps, level-matched"
+    },
+    {
+     "file": "ambient/lfm-las-07.mp3",
+     "title": "I hope you're happy",
+     "artist": "Loyalty Freak Music",
+     "license": "CC0 1.0",
+     "source": "https://archive.org/details/loyalty-freak-music-lofi-ambient-songs",
+     "duration_s": 174.6,
+     "copy_from": "original file from the Internet Archive item above, re-encoded 112 kbps, level-matched"
+    },
+    {
+     "file": "ambient/lfm-las-08.mp3",
+     "title": "Lack of Color - Sugar and coffee",
+     "artist": "Loyalty Freak Music",
+     "license": "CC0 1.0",
+     "source": "https://archive.org/details/loyalty-freak-music-lofi-ambient-songs",
+     "duration_s": 106.9,
+     "copy_from": "original file from the Internet Archive item above, re-encoded 112 kbps, level-matched"
+    },
+    {
+     "file": "ambient/lfm-cfr-05.mp3",
+     "title": "Soft as a dry pillow",
+     "artist": "Loyalty Freak Music",
+     "license": "CC0 1.0",
+     "source": "https://archive.org/details/loyalty-freak-music-chill-for-real",
+     "duration_s": 182.4,
+     "copy_from": "original file from the Internet Archive item above, re-encoded 112 kbps, level-matched"
+    }
+   ]
+  },
+  {
+   "id": "78rpm",
+   "name": "78 RPMs (1917-1925)",
+   "tracks": [
+    {
+     "file": "78rpm/78-01.mp3",
+     "title": "Livery Stable Blues",
+     "artist": "Original Dixieland Jass Band",
+     "license": "Public domain (US, pre-1926)",
+     "source": "https://archive.org/details/original-dixieland-jass-band-livery-stable-blues-victor-18255-b",
+     "duration_s": 184.3,
+     "year": 1917,
+     "label": "Victor 18255-B",
+     "copy_from": "multiplexweather.com copy of this CC0/public-domain track (trimmed/loudness-matched there)"
+    },
+    {
+     "file": "78rpm/78-02.mp3",
+     "title": "Memphis Blues",
+     "artist": "Lt. Jim Europe's 369th U.S. Infantry Hell Fighters Band",
+     "license": "Public domain (US, pre-1926)",
+     "source": "https://archive.org/details/78_memphis-blues_lieut-jim-europes-369th-u-s-inf-hell-fighters-band-handy_gbia0298581b",
+     "duration_s": 170.8,
+     "year": 1919,
+     "label": "Pathe 22085",
+     "copy_from": "multiplexweather.com copy of this CC0/public-domain track (trimmed/loudness-matched there)"
+    },
+    {
+     "file": "78rpm/78-03.mp3",
+     "title": "Crazy Blues",
+     "artist": "Mamie Smith and Her Jazz Hounds",
+     "license": "Public domain (US, pre-1926)",
+     "source": "https://archive.org/details/MamieSmithHerJazzHounds",
+     "duration_s": 210.9,
+     "year": 1920,
+     "label": "Okeh 4169",
+     "copy_from": "multiplexweather.com copy of this CC0/public-domain track (trimmed/loudness-matched there)"
+    },
+    {
+     "file": "78rpm/78-04.mp3",
+     "title": "Everybody's Blues",
+     "artist": "Lucille Hegamin",
+     "license": "Public domain (US, pre-1926)",
+     "source": "https://archive.org/details/78_everybodys-blues_harris-blues-and-jazz-seven-lucille-hegamin-tom-delaney_gbia0270347b",
+     "duration_s": 169.1,
+     "year": 1920,
+     "label": "Arto 9045",
+     "copy_from": "multiplexweather.com copy of this CC0/public-domain track (trimmed/loudness-matched there)"
+    },
+    {
+     "file": "78rpm/78-05.mp3",
+     "title": "Jazzin' Babies Blues",
+     "artist": "Ethel Waters",
+     "license": "Public domain (US, pre-1926)",
+     "source": "https://archive.org/details/78_jazzin-babies-blues_ethel-waters-and-joe-smiths-jazz-masters-richard-jones_gbia0363130a",
+     "duration_s": 186.8,
+     "year": 1922,
+     "label": "Black Swan 14117",
+     "copy_from": "multiplexweather.com copy of this CC0/public-domain track (trimmed/loudness-matched there)"
+    },
+    {
+     "file": "78rpm/78-06.mp3",
+     "title": "My Man Rocks Me (With One Steady Roll)",
+     "artist": "Trixie Smith",
+     "license": "Public domain (US, pre-1926)",
+     "source": "https://archive.org/details/78_my-man-rocks-me-with-one-steady-roll_trixie-smith-and-the-jazz-masters-j-berni-barb_gbia0545015b",
+     "duration_s": 182.1,
+     "year": 1922,
+     "label": "Black Swan 14127",
+     "copy_from": "multiplexweather.com copy of this CC0/public-domain track (trimmed/loudness-matched there)"
+    },
+    {
+     "file": "78rpm/78-07.mp3",
+     "title": "Chirping the Blues",
+     "artist": "Alberta Hunter",
+     "license": "Public domain (US, pre-1926)",
+     "source": "https://archive.org/details/78_chirping-the-blues_alberta-hunter-fletcher-henderson_gbia0418706a",
+     "duration_s": 187.3,
+     "year": 1923,
+     "label": "Paramount (mx 1321)",
+     "copy_from": "multiplexweather.com copy of this CC0/public-domain track (trimmed/loudness-matched there)"
+    },
+    {
+     "file": "78rpm/78-08.mp3",
+     "title": "Down Hearted Blues",
+     "artist": "Bessie Smith",
+     "license": "Public domain (US, pre-1926)",
+     "source": "https://archive.org/details/loc-jukebox-670189-down-hearted-blues",
+     "duration_s": 207.4,
+     "year": 1923,
+     "label": "Columbia A3844",
+     "copy_from": "multiplexweather.com copy of this CC0/public-domain track (trimmed/loudness-matched there)"
+    },
+    {
+     "file": "78rpm/78-09.mp3",
+     "title": "Leave My Sweet Daddy Alone",
+     "artist": "Sara Martin",
+     "license": "Public domain (US, pre-1926)",
+     "source": "https://archive.org/details/78_leave-my-sweet-daddy-alone_sara-martin-clarence-williams_gbia0026894a",
+     "duration_s": 173.1,
+     "year": 1923,
+     "label": "Okeh 8065",
+     "copy_from": "multiplexweather.com copy of this CC0/public-domain track (trimmed/loudness-matched there)"
+    },
+    {
+     "file": "78rpm/78-10.mp3",
+     "title": "Those Dogs of Mine (Famous Cornfield Blues)",
+     "artist": "Ma Rainey",
+     "license": "Public domain (US, pre-1926)",
+     "source": "https://archive.org/details/78_those-dogs-of-mine-famous-cornfield-blues_ma-rainey_gbia0420866a",
+     "duration_s": 190.6,
+     "year": 1924,
+     "label": "Paramount 12215 (American Music reissue pressing)",
+     "copy_from": "multiplexweather.com copy of this CC0/public-domain track (trimmed/loudness-matched there)"
+    },
+    {
+     "file": "78rpm/78-11.mp3",
+     "title": "Jelly Bean Blues",
+     "artist": "Ma Rainey and Her Georgia Jazz Band",
+     "license": "Public domain (US, pre-1926)",
+     "source": "https://archive.org/details/jelly-bean-blues",
+     "duration_s": 196.7,
+     "year": 1924,
+     "label": "Paramount 12238",
+     "copy_from": "multiplexweather.com copy of this CC0/public-domain track (trimmed/loudness-matched there)"
+    },
+    {
+     "file": "78rpm/78-12.mp3",
+     "title": "Careless Love Blues",
+     "artist": "Bessie Smith",
+     "license": "Public domain (US, pre-1926)",
+     "source": "https://archive.org/details/bessie-smith-careless-love-blues",
+     "duration_s": 209.6,
+     "year": 1925,
+     "label": "Columbia 14083-D",
+     "copy_from": "multiplexweather.com copy of this CC0/public-domain track (trimmed/loudness-matched there)"
+    },
+    {
+     "file": "78rpm/78-13.mp3",
+     "title": "Yellow Dog Blues",
+     "artist": "Bessie Smith",
+     "license": "Public domain (US, pre-1926)",
+     "source": "https://archive.org/details/78_yellow-dog-blues_bessie-smith-hendersons-hot-six_gbia0464774a",
+     "duration_s": 190.5,
+     "year": 1925,
+     "label": "Columbia 14075-D",
+     "copy_from": "multiplexweather.com copy of this CC0/public-domain track (trimmed/loudness-matched there)"
+    },
+    {
+     "file": "78rpm/78-14.mp3",
+     "title": "The St. Louis Blues",
+     "artist": "Ferera and Paaluhi",
+     "license": "Public domain (US, pre-1926)",
+     "source": "https://archive.org/details/78_the-st-louis-blues_ferera-and-paaluhi-w-c-handy_gbia0264780a",
+     "duration_s": 218.8,
+     "year": 1925,
+     "label": "Edison 51616",
+     "copy_from": "multiplexweather.com copy of this CC0/public-domain track (trimmed/loudness-matched there)"
+    }
+   ]
+  },
+  {
+   "id": "scifi",
+   "name": "Sci-Fi Soundtracks",
+   "tracks": [
+    {
+     "file": "scifi/holizna-somethings-out-there.mp3",
+     "title": "Somethings Out There",
+     "artist": "HoliznaCC0",
+     "license": "CC0 1.0",
+     "source": "https://freemusicarchive.org/music/holiznacc0/stranger-than-fiction-halloween-sci-fi/somethings-out-there/",
+     "duration_s": 172.8,
+     "album": "Stranger Than Fiction (Halloween / Sci Fi)",
+     "year": 2022,
+     "copy_from": "multiplexweather.com copy of this CC0/public-domain track (trimmed/loudness-matched there)"
+    },
+    {
+     "file": "scifi/holizna-sky-fish.mp3",
+     "title": "Sky Fish",
+     "artist": "HoliznaCC0",
+     "license": "CC0 1.0",
+     "source": "https://freemusicarchive.org/music/holiznacc0/stranger-than-fiction-halloween-sci-fi/sky-fish/",
+     "duration_s": 194.4,
+     "album": "Stranger Than Fiction (Halloween / Sci Fi)",
+     "year": 2022,
+     "copy_from": "multiplexweather.com copy of this CC0/public-domain track (trimmed/loudness-matched there)"
+    },
+    {
+     "file": "scifi/holizna-little-green-men.mp3",
+     "title": "Little Green Men",
+     "artist": "HoliznaCC0",
+     "license": "CC0 1.0",
+     "source": "https://freemusicarchive.org/music/holiznacc0/stranger-than-fiction-halloween-sci-fi/little-green-men/",
+     "duration_s": 156.7,
+     "album": "Stranger Than Fiction (Halloween / Sci Fi)",
+     "year": 2022,
+     "copy_from": "multiplexweather.com copy of this CC0/public-domain track (trimmed/loudness-matched there)"
+    },
+    {
+     "file": "scifi/holizna-an-ocean-in-outer-space.mp3",
+     "title": "An Ocean in Outer Space",
+     "artist": "HoliznaCC0",
+     "license": "CC0 1.0",
+     "source": "https://freemusicarchive.org/music/holiznacc0/stranger-than-fiction-halloween-sci-fi/an-ocean-in-outer-space/",
+     "duration_s": 132.0,
+     "album": "Stranger Than Fiction (Halloween / Sci Fi)",
+     "year": 2022,
+     "copy_from": "multiplexweather.com copy of this CC0/public-domain track (trimmed/loudness-matched there)"
+    },
+    {
+     "file": "scifi/holizna-burning-in-the-atmosphere.mp3",
+     "title": "Burning In The Atmosphere",
+     "artist": "HoliznaCC0",
+     "license": "CC0 1.0",
+     "source": "https://freemusicarchive.org/music/holiznacc0/stranger-than-fiction-halloween-sci-fi/burning-in-the-atmosphere/",
+     "duration_s": 264.9,
+     "album": "Stranger Than Fiction (Halloween / Sci Fi)",
+     "year": 2022,
+     "copy_from": "multiplexweather.com copy of this CC0/public-domain track (trimmed/loudness-matched there)"
+    },
+    {
+     "file": "scifi/holizna-cosmic-waves.mp3",
+     "title": "Cosmic Waves",
+     "artist": "HoliznaCC0",
+     "license": "CC0 1.0",
+     "source": "https://freemusicarchive.org/music/holiznacc0/space-sleep-meditation/cosmic-waves/",
+     "duration_s": 300.0,
+     "album": "Space - Sleep - Meditation",
+     "year": 2022,
+     "note": "Edited: first 5:00 of the 33:05 original, 2 s fade-in, 5 s fade-out",
+     "copy_from": "multiplexweather.com copy of this CC0/public-domain track (trimmed/loudness-matched there)"
+    }
+   ]
+  },
+  {
+   "id": "hawaiian",
+   "name": "Hawaiian (1916-1922)",
+   "tracks": [
+    {
+     "file": "hawaiian/01-hawaiian-twilight-waikiki-hawaiian-orchestra.mp3",
+     "title": "Hawaiian twilight",
+     "artist": "Waikiki Hawaiian Orchestra",
+     "license": "Public domain (US, published before 1923)",
+     "source": "https://cylinders.library.ucsb.edu/detail.php?query_type=mms_id&query=990025569050203776",
+     "duration_s": 210.9,
+     "year": 1920,
+     "label": "Edison Blue Amberol 4138 (Diamond Disc matrix 7417)",
+     "credit": "University of California, Santa Barbara Library",
+     "copy_from": "multiplexweather.com copy of this CC0/public-domain track (trimmed/loudness-matched there)"
+    },
+    {
+     "file": "hawaiian/02-wailana-waltz-drowsy-waters-toots-paka-s-hawaiians.mp3",
+     "title": "Wailana waltz (Drowsy waters)",
+     "artist": "Toots Paka's Hawaiians",
+     "license": "Public domain (US, published before 1923)",
+     "source": "https://cylinders.library.ucsb.edu/detail.php?query_type=mms_id&query=990025266970203776",
+     "duration_s": 252.6,
+     "year": 1920,
+     "label": "Edison Blue Amberol 4121 (Diamond Disc matrix 7135)",
+     "credit": "University of California, Santa Barbara Library",
+     "copy_from": "multiplexweather.com copy of this CC0/public-domain track (trimmed/loudness-matched there)"
+    },
+    {
+     "file": "hawaiian/03-dreamy-hawaii-waltz-waikiki-hawaiian-orchestra.mp3",
+     "title": "Dreamy Hawaii (waltz)",
+     "artist": "Waikiki Hawaiian Orchestra",
+     "license": "Public domain (US, published before 1923)",
+     "source": "https://cylinders.library.ucsb.edu/detail.php?query_type=mms_id&query=990025240870203776",
+     "duration_s": 228.3,
+     "year": 1922,
+     "label": "Edison Blue Amberol 4419 (Diamond Disc matrix 8072)",
+     "credit": "University of California, Santa Barbara Library",
+     "copy_from": "multiplexweather.com copy of this CC0/public-domain track (trimmed/loudness-matched there)"
+    },
+    {
+     "file": "hawaiian/04-hapa-haole-hula-girl-helen-louise-palakiko-ferreira.mp3",
+     "title": "Hapa haole hula girl",
+     "artist": "Helen Louise & Palakiko Ferreira [Frank Ferera]",
+     "license": "Public domain (US, published before 1923)",
+     "source": "https://cylinders.library.ucsb.edu/detail.php?query_type=mms_id&query=990025263890203776",
+     "duration_s": 192.2,
+     "year": 1916,
+     "label": "Edison Blue Amberol 2956 (Diamond Disc matrix 4600)",
+     "credit": "University of California, Santa Barbara Library",
+     "copy_from": "multiplexweather.com copy of this CC0/public-domain track (trimmed/loudness-matched there)"
+    },
+    {
+     "file": "hawaiian/05-hawaiian-nights-waltz-waikiki-hawaiian-orchestra-wit.mp3",
+     "title": "Hawaiian nights (waltz)",
+     "artist": "Waikiki Hawaiian Orchestra with Louise & Ferera",
+     "license": "Public domain (US, published before 1923)",
+     "source": "https://cylinders.library.ucsb.edu/detail.php?query_type=mms_id&query=990027526620203776",
+     "duration_s": 199.5,
+     "year": 1919,
+     "label": "Edison Blue Amberol 3656 (Diamond Disc matrix 6209)",
+     "credit": "University of California, Santa Barbara Library",
+     "copy_from": "multiplexweather.com copy of this CC0/public-domain track (trimmed/loudness-matched there)"
+    },
+    {
+     "file": "hawaiian/06-hawaiian-smiles-waikiki-hawaiian-orchestra.mp3",
+     "title": "Hawaiian smiles",
+     "artist": "Waikiki Hawaiian Orchestra",
+     "license": "Public domain (US, published before 1923)",
+     "source": "https://cylinders.library.ucsb.edu/detail.php?query_type=mms_id&query=990025263380203776",
+     "duration_s": 180.2,
+     "year": 1920,
+     "label": "Edison Blue Amberol 4052 (Diamond Disc matrix 7147)",
+     "credit": "University of California, Santa Barbara Library",
+     "copy_from": "multiplexweather.com copy of this CC0/public-domain track (trimmed/loudness-matched there)"
+    },
+    {
+     "file": "hawaiian/07-kiss-me-again-waltz-waikiki-hawaiian-orchestra-lou.mp3",
+     "title": "Kiss me again waltz",
+     "artist": "Waikiki Hawaiian Orchestra (Louise & Ferera, Hawaiian guitars)",
+     "license": "Public domain (US, published before 1923)",
+     "source": "https://cylinders.library.ucsb.edu/detail.php?query_type=mms_id&query=990026816080203776",
+     "duration_s": 215.6,
+     "year": 1918,
+     "label": "Edison Blue Amberol 3526 (Diamond Disc matrix 6140)",
+     "credit": "University of California, Santa Barbara Library",
+     "copy_from": "multiplexweather.com copy of this CC0/public-domain track (trimmed/loudness-matched there)"
+    },
+    {
+     "file": "hawaiian/08-hawaiian-hula-medley-helen-louise-frank-ferera.mp3",
+     "title": "Hawaiian hula medley",
+     "artist": "Helen Louise & Frank Ferera",
+     "license": "Public domain (US, published before 1923)",
+     "source": "https://cylinders.library.ucsb.edu/detail.php?query_type=mms_id&query=990026561460203776",
+     "duration_s": 181.6,
+     "year": 1917,
+     "label": "Edison Blue Amberol 3065 (Diamond Disc matrix 4967)",
+     "credit": "University of California, Santa Barbara Library",
+     "copy_from": "multiplexweather.com copy of this CC0/public-domain track (trimmed/loudness-matched there)"
+    },
+    {
+     "file": "hawaiian/09-beautiful-hawaii-waltz-waikiki-hawaiian-orchestra.mp3",
+     "title": "Beautiful Hawaii (waltz)",
+     "artist": "Waikiki Hawaiian Orchestra",
+     "license": "Public domain (US, published before 1923)",
+     "source": "https://cylinders.library.ucsb.edu/detail.php?query_type=mms_id&query=990025263540203776",
+     "duration_s": 226.2,
+     "year": 1920,
+     "label": "Edison Blue Amberol 4069 (Diamond Disc matrix 7245)",
+     "credit": "University of California, Santa Barbara Library",
+     "copy_from": "multiplexweather.com copy of this CC0/public-domain track (trimmed/loudness-matched there)"
+    }
+   ]
+  }
+ ]
+}

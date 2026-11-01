@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<title>X News Channel</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="A retro Weatherscan-style news channel showing top stories from X News.">
+<link rel="stylesheet" href="app.css">
+</head><body>
+<!-- X News Channel: static site (index.html + app.css + app.js + config.json + news.json).
+     URL options: ?autoplay=1 start music (fades in over 5 s), ?kiosk=1 hide cursor/controls,
+     ?page=<category id> start on a page, ?player=0 hide the music player window.
+     Inspired by Multiplex Weather by Brian Roemmele (@BrianRoemmele), https://multiplexweather.com -->
+<div id="stage">
+  <div class="bg"></div>
+  <div class="header">
+    <div class="logo"><span class="x">𝕏</span><span class="news">NEWS</span></div>
+    <div class="title"><div class="top" id="tTop">X News</div><div class="bottom" id="tBottom">Channel</div></div>
+    <div class="clock"><div id="time">--:--:--</div><div id="date"></div></div>
+  </div>
+  <div class="box">
+    <ol id="stories"></ol>
+    <div class="status"><span id="updated">UPDATED --:--</span><span id="pageno"></span></div>
+  </div>
+  <div class="ticker"><div id="tickerText"></div></div>
+</div>
+<div id="controls">
+  <img id="btnPrev" src="images/ic_play_arrow_white_24dp_2x.png" class="flip" title="Previous page (←)">
+  <img id="btnPause" src="images/ic_pause_white_24dp_2x.png" title="Pause rotation (space)">
+  <img id="btnNext" src="images/ic_play_arrow_white_24dp_2x.png" title="Next page (→)">
+  <img id="ToggleMusic" src="images/ic_volume_off_white_24dp_2x.png" title="Play music (M)">
+  <img id="btnFull" src="images/ic_fullscreen_white_24dp_2x.png" title="Fullscreen (F)">
+  <select id="channelPick" title="Music channel"></select>
+  <div class="credit">Inspired by <a href="https://multiplexweather.com" target="_blank" rel="noopener">Multiplex Weather</a>
+    by Brian Roemmele (<a href="https://x.com/BrianRoemmele" target="_blank" rel="noopener">@BrianRoemmele</a>) &middot;
+    <a href="https://multiplexweather.com" target="_blank" rel="noopener">multiplexweather.com</a> &middot; music selection from Multiplex.FM Weather
+    (CC0 / public domain, <a href="mfm-music/CREDITS.txt" target="_blank">credits</a>)</div>
+</div>
+<div id="disclaimer">Unofficial fan project, not affiliated with X Corp. Headlines from public X news. &middot;
+  Inspired by <a href="https://multiplexweather.com" target="_blank" rel="noopener">Multiplex Weather</a> by Brian Roemmele
+  (<a href="https://x.com/BrianRoemmele" target="_blank" rel="noopener">@BrianRoemmele</a>) &middot;
+  music CC0 / public domain (<a href="mfm-music/CREDITS.txt" target="_blank">credits</a>) &middot; click or press M for music</div>
+<div id="webamp-app"></div>
+<script src="app.js"></script>
+<script type="module" src="music.js"></script>
+</body></html>

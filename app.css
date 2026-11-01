@@ -1,0 +1,124 @@
+/* X News Channel — Weatherscan / WeatherStar 4000 look. Fonts: Star4000 family (see fonts/ReadMe.txt). */
+@font-face { font-family: 'Star4000'; src: url('fonts/Star4000.woff') format('woff'); unicode-range: U+0020-007E, U+00A0-00FF; }
+@font-face { font-family: 'Star4000 Small'; src: url('fonts/Star4000 Small.woff') format('woff'); unicode-range: U+0020-007E, U+00A0-00FF; }
+@font-face { font-family: 'Star4000 Extended'; src: url('fonts/Star4000 Extended.woff') format('woff'); unicode-range: U+0020-007E, U+00A0-00FF; }
+@font-face { font-family: 'Star4000 Large'; src: url('fonts/Star4000 Large.woff') format('woff'); unicode-range: U+0020-007E, U+00A0-00FF; }
+
+html, body { margin: 0; height: 100%; background: #000; overflow: hidden; }
+body.kiosk, body.kiosk * { cursor: none !important; }
+
+/* Fixed 854x480 "wide" WeatherStar canvas, scaled by app.js to fit any screen (letterboxed). */
+#stage {
+  position: absolute; left: 50%; top: 50%; width: 854px; height: 480px;
+  transform-origin: 0 0; overflow: hidden; color: #fff;
+  --shadow: 3px 1.5px 0 #000, 2px 1px 0 #000, 1px .5px 0 #000;
+}
+#stage .bg {
+  position: absolute; inset: 0;
+  background:
+    linear-gradient(#1e0b55 0, #1e0b55 30px, transparent 30px) no-repeat,
+    linear-gradient(to bottom, #2b0f5c 0, #3d1650 18%, #6a2f30 50%, #a24f15 82%, #bf5a00 100%);
+}
+/* orange title band with the slanted right edge */
+#stage .bg::before {
+  content: ''; position: absolute; left: 0; top: 30px; width: 610px; height: 60px;
+  background: linear-gradient(to bottom, #c45e00 0%, #a14d14 45%, #5a2b45 100%);
+  clip-path: polygon(0 0, 100% 0, 92% 100%, 0 100%);
+}
+#stage .bg::after { /* purple block right of the band, like the original */
+  content: ''; position: absolute; right: 0; top: 30px; width: 300px; height: 60px; background: #1e0b55;
+  clip-path: polygon(17% 0, 100% 0, 100% 100%, 0 100%); z-index: -0;
+}
+.header .logo {
+  position: absolute; left: 44px; top: 27px; width: 92px; height: 62px; z-index: 3;
+  background: linear-gradient(#ffffff 0, #d9dde8 100%); border-radius: 6px;
+  box-shadow: 2px 2px 0 #000; display: flex; flex-direction: column; align-items: center; justify-content: center;
+  color: #0b1a5a; line-height: 1;
+}
+.header .logo .x { font: 34px/1 'Segoe UI Symbol', 'DejaVu Sans', sans-serif; font-weight: 700; }
+.header .logo .news { font: 15px/1 'Star4000', 'DejaVu Sans Condensed', 'DejaVu Sans', sans-serif; letter-spacing: 2px; margin-top: 2px; color: #c04a00; }
+.header .title {
+  position: absolute; left: 160px; top: 32px; z-index: 3; color: yellow;
+  font: 24pt/1 'Star4000', 'DejaVu Sans Condensed', 'DejaVu Sans', sans-serif; text-shadow: var(--shadow); white-space: nowrap;
+}
+.header .title .top { position: absolute; top: 0; }
+.header .title .bottom { position: absolute; top: 28px; }
+.header .clock {
+  position: absolute; right: 36px; top: 33px; z-index: 3; text-align: right;
+  font: 22pt/1.05 'Star4000 Small', 'DejaVu Sans Condensed', 'DejaVu Sans', sans-serif; text-shadow: var(--shadow); white-space: pre;
+}
+.box {
+  position: absolute; left: 34px; right: 34px; top: 92px; height: 300px; box-sizing: border-box;
+  background: #212a5c; border: 2px solid #3b6fd8; border-radius: 2px;
+  box-shadow: inset 0 0 10px 5px #2f56b8, 0 0 2px #000;
+  padding: 8px 18px 0 18px;
+}
+#stories { list-style: none; margin: 0; padding: 0; counter-reset: n; transition: opacity .45s; }
+#stories.out { opacity: 0; }
+#stories li {
+  counter-increment: n; position: relative; padding-left: 34px; height: 42px; margin-bottom: 1px;
+  border-bottom: 1px solid rgba(110,150,255,.18); overflow: hidden; cursor: pointer;
+}
+#stories li:last-child { border-bottom: 0; }
+#stories li::before {
+  content: counter(n); position: absolute; left: 0; top: 1px; width: 24px; text-align: right;
+  font: 20px/1 'Star4000', 'DejaVu Sans Condensed', 'DejaVu Sans', sans-serif; color: yellow; text-shadow: var(--shadow);
+}
+#stories .h {
+  font: 18px/1.15 'Star4000 Extended', 'DejaVu Sans Condensed', 'DejaVu Sans', sans-serif; color: #fff; text-shadow: var(--shadow);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+#stories .s {
+  font: 14px/1.25 'Star4000 Extended', 'DejaVu Sans Condensed', 'DejaVu Sans', sans-serif; color: #b9cbff; text-shadow: 1px 1px 0 #000;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-top: 2px;
+}
+#stories .s .ago { color: #ffcc66; margin-right: 6px; }
+#stories li.empty { cursor: default; height: auto; padding: 40px 10px; text-align: center; }
+#stories li.empty::before { content: none; }
+#stories li.empty .h { white-space: normal; color: yellow; font-size: 24px; }
+#stories li.empty .s { white-space: normal; font-size: 16px; margin-top: 12px; }
+.status {
+  position: absolute; left: 18px; right: 18px; bottom: 6px; display: flex; justify-content: space-between;
+  font: 13px/1 'Star4000 Small', 'DejaVu Sans Condensed', 'DejaVu Sans', sans-serif; color: #8fb0ff; text-shadow: 1px 1px 0 #000; letter-spacing: 1px;
+}
+.status .old { color: #ff9a3c; }
+.ticker {
+  position: absolute; left: 0; right: 0; top: 400px; bottom: 0; overflow: hidden;
+  background: #22306e; border-top: 2px solid #c9c9d6; box-shadow: inset 0 2px 0 #000;
+}
+#tickerText {
+  position: absolute; top: 22px; left: 0; white-space: nowrap; will-change: transform;
+  font: 24pt/1 'Star4000', 'DejaVu Sans Condensed', 'DejaVu Sans', sans-serif; text-shadow: var(--shadow);
+}
+#tickerText .cat { color: yellow; }
+#tickerText .sep { color: #7fa0ff; margin: 0 18px; }
+
+/* small on-screen controls (top right), shown on mouse movement */
+#controls {
+  position: fixed; right: 10px; top: 8px; z-index: 2000; display: flex; gap: 6px;
+  opacity: 0; transition: opacity .4s; background: rgba(0,0,0,.6); padding: 4px 6px; border-radius: 6px;
+  flex-wrap: wrap; align-items: center; justify-content: flex-end; max-width: 520px;
+}
+#controls.show, #controls:hover { opacity: 1; }
+#controls select { font: 12px sans-serif; background: #1e2a66; color: #fff; border: 1px solid #4f6fd8; border-radius: 4px; height: 26px; }
+#controls .credit { flex-basis: 100%; text-align: right; font: 11px/1.35 'DejaVu Sans', sans-serif; color: #c9d4ff; }
+#controls .credit a { color: #ffd27a; }
+#controls img { width: 30px; height: 30px; cursor: pointer; }
+#controls img.flip { transform: scaleX(-1); }
+body.kiosk #controls { display: none; }
+
+/* Webamp player: tiny shaded windows in the top-left corner, above the purple strip. */
+#webamp-app { position: fixed; left: 0; top: 0; width: 1px; height: 1px; }
+#webamp div:has(> #main-window) {
+  position: fixed !important; top: 4px !important; left: 6px !important; transform: none !important; z-index: 1000 !important;
+}
+#webamp div:has(> #playlist-window-shade), #webamp div:has(> #playlist-window) {
+  position: fixed !important; top: 18px !important; left: 6px !important; transform: none !important; z-index: 1000 !important;
+}
+body.no-player #webamp { visibility: hidden !important; }
+
+/* public site: always-visible small disclaimer + credit line */
+#disclaimer { position: fixed; left: 50%; bottom: 4px; transform: translateX(-50%); z-index: 5; max-width: 96vw; text-align: center;
+  font: 11px/1.35 'DejaVu Sans', sans-serif; color: rgba(201,212,255,.75); text-shadow: 0 0 3px #000; pointer-events: auto; }
+#disclaimer a { color: #ffd27a; }
+body.kiosk #disclaimer { display: none; }
