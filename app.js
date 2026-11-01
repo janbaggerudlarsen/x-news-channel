@@ -125,7 +125,7 @@
       $('tTop').textContent = p.top; $('tBottom').textContent = p.bottom;
       ol.innerHTML = p.stories.map((s) =>
         `<li data-url="${esc(s.url)}" title="${esc(s.full_title || s.title)}"><div class="h">${esc(s.title)}</div>` +
-        `<div class="s"><span class="ago">${ago(s.time)}</span> ON X</div></li>`).join('');
+        `<div class="s"><span class="ago">${ago(s.time)}</span> ON ${esc((s.via || 'X').toUpperCase())}${s.source ? ` - ${esc(s.source)}` : ''}${s.label ? ` (${esc(s.label)})` : ''}</div></li>`).join('');
       ol.style.counterReset = `n ${(p.part - 1) * p.stories.length > 0 ? (p.part - 1) * Math.min(cfg.max_per_page || 3, 4) : 0}`;
       fitAll(ol);
       $('pageno').textContent = `${p.title.toUpperCase()}${p.parts > 1 ? ` ${p.part}/${p.parts}` : ''} - ${idx + 1}/${pages.length}`; fitEl($('pageno'));

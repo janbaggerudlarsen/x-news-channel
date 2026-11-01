@@ -20,7 +20,7 @@
      ],
      "time": "2026-11-01T11:25:03.000Z",
      "url": "https://x.com/i/trending/2116781246671897010",
-     "score": 5.049
+     "score": 5.047
     },
     {
      "title": "Grok Bot Evolves into Practical Digital Workforce for Users",
@@ -34,7 +34,7 @@
      ],
      "time": "2026-11-01T00:18:09.000Z",
      "url": "https://x.com/i/trending/2116048467378180323",
-     "score": 4.8
+     "score": 4.798
     },
     {
      "title": "Grok Bot Hits 600,000 Daily Users in Explosive Growth",
@@ -47,7 +47,7 @@
      ],
      "time": "2026-10-30T02:59:54.000Z",
      "url": "https://x.com/i/trending/2115642688208875679",
-     "score": 4.61
+     "score": 4.609
     },
     {
      "title": "Elon Musk Teases Grok 4.8's Focus on Real-World Utility",
@@ -61,7 +61,7 @@
      ],
      "time": "2026-10-30T17:19:21.000Z",
      "url": "https://x.com/i/trending/2116216131744624676",
-     "score": 3.44
+     "score": 3.439
     },
     {
      "title": "Grok Bot Users Hit by Sudden Usage Meter Spikes...",
@@ -74,7 +74,7 @@
      ],
      "time": "2026-11-01T19:12:04.000Z",
      "url": "https://x.com/i/trending/2116659654558158884",
-     "score": 3.317
+     "score": 3.316
     }
    ]
   },
@@ -94,7 +94,7 @@
      ],
      "time": "2026-10-31T22:58:29.000Z",
      "url": "https://x.com/i/trending/2116283597795807480",
-     "score": 4.902
+     "score": 4.897
     },
     {
      "title": "Gemini 4 Carbon Tops Benchmarks",
@@ -108,7 +108,7 @@
      ],
      "time": "2026-11-01T00:58:20.000Z",
      "url": "https://x.com/i/trending/2116573310276252100",
-     "score": 3.098
+     "score": 3.093
     },
     {
      "title": "OpenAI's Astra Tops Robot Benchmarks",
@@ -122,7 +122,7 @@
      ],
      "time": "2026-11-01T11:02:42.000Z",
      "url": "https://x.com/i/trending/2116805922211410376",
-     "score": 2.953
+     "score": 2.949
     },
     {
      "title": "OpenAI Plans Policy Push and Data Center Rebrand",
@@ -136,7 +136,7 @@
      ],
      "time": "2026-11-01T19:57:06.000Z",
      "url": "https://x.com/i/trending/2116942777569406997",
-     "score": 2.951
+     "score": 2.947
     },
     {
      "title": "Claude's Self-Review Sparks User Backlash on Privacy",
@@ -150,7 +150,7 @@
      ],
      "time": "2026-11-01T21:16:01.000Z",
      "url": "https://x.com/i/trending/2116768150947512505",
-     "score": 2.911
+     "score": 2.907
     },
     {
      "title": "Anthropic Shares Free Course on Building AI Agents",
@@ -164,7 +164,93 @@
      ],
      "time": "2026-11-01T15:12:43.000Z",
      "url": "https://x.com/i/trending/2116222746040357036",
-     "score": 2.897
+     "score": 2.893
+    }
+   ]
+  },
+  {
+   "id": "omarchy",
+   "title": "Omarchy",
+   "stories": [
+    {
+     "title": "Omarchy 4.5 RC2 released",
+     "full_title": "Omarchy 4.5 RC2 released",
+     "summary": "",
+     "category": "Omarchy",
+     "x_category": "Release",
+     "topics": [],
+     "time": "2026-10-27T23:07:38Z",
+     "url": "https://github.com/omacom/omarchy/releases/tag/v4.5.0-rc2",
+     "score": 2.071,
+     "source": "omacom/omarchy",
+     "via": "GitHub"
+    },
+    {
+     "title": "Monitor layout and resolution setting is coming",
+     "full_title": "Monitor layout and resolution setting is coming for the display panel in Omarchy 4.6 (FINALLY!)",
+     "summary": "",
+     "category": "Omarchy",
+     "x_category": "Post",
+     "topics": [],
+     "time": "2026-10-31T17:21:42.000Z",
+     "url": "https://x.com/omarchy/status/2116581389244289250",
+     "score": 3.41,
+     "source": "@omarchy",
+     "via": "X"
+    },
+    {
+     "title": "Made Hex available as a dictation option on Omarchy Dev",
+     "full_title": "Made Hex available as a dictation option on Omarchy Dev",
+     "summary": "",
+     "category": "Omarchy",
+     "x_category": "Post",
+     "topics": [],
+     "time": "2026-10-31T21:29:21.000Z",
+     "url": "https://x.com/dhh/status/2116643715418628268",
+     "score": 3.204,
+     "source": "@dhh",
+     "via": "X"
+    },
+    {
+     "title": "Omarchy now boots on a Xiaomi phone. No PC attached",
+     "full_title": "Omarchy now boots on a Xiaomi phone. No PC attached",
+     "summary": "",
+     "category": "Omarchy",
+     "x_category": "Post",
+     "topics": [],
+     "time": "2026-11-01T15:00:19.000Z",
+     "url": "https://x.com/OmarchyUpdates/status/2116908199161086019",
+     "score": 2.643,
+     "source": "@OmarchyUpdates",
+     "via": "X",
+     "label": "unofficial"
+    },
+    {
+     "title": "Omarchy running on the Asus Zenbook A16",
+     "full_title": "Omarchy running on the Asus Zenbook A16 with the Snapdragon X2 Extreme chip",
+     "summary": "",
+     "category": "Omarchy",
+     "x_category": "Post",
+     "topics": [],
+     "time": "2026-10-29T14:55:55.000Z",
+     "url": "https://x.com/dhh/status/2115819928242491628",
+     "score": 2.838,
+     "source": "@dhh",
+     "via": "X"
+    },
+    {
+     "title": "Your Omarchy touchpad now swipes out of the box",
+     "full_title": "Your Omarchy touchpad now swipes out of the box",
+     "summary": "",
+     "category": "Omarchy",
+     "x_category": "Post",
+     "topics": [],
+     "time": "2026-11-01T00:00:10.000Z",
+     "url": "https://x.com/OmarchyUpdates/status/2116681668077797736",
+     "score": 2.615,
+     "source": "@OmarchyUpdates",
+     "via": "X",
+     "label": "unofficial"
     }
    ]
   },
@@ -184,7 +270,7 @@
      ],
      "time": "2026-11-01T00:17:51.000Z",
      "url": "https://x.com/i/trending/2116621594412093648",
-     "score": 2.061
+     "score": 2.057
     },
     {
      "title": "iPhone Duo Launches with High Demand and Early...",
@@ -197,7 +283,7 @@
      ],
      "time": "2026-11-01T20:55:05.000Z",
      "url": "https://x.com/i/trending/2116319407055978889",
-     "score": 1.842
+     "score": 1.838
     },
     {
      "title": "AI Reshapes Software Work and Jobs in Uneven Ways",
@@ -211,7 +297,7 @@
      ],
      "time": "2026-11-01T19:57:07.000Z",
      "url": "https://x.com/i/trending/2116855858873127002",
-     "score": 1.764
+     "score": 1.76
     },
     {
      "title": "Apple Launches First Touchscreen MacBook Pro",
@@ -224,7 +310,7 @@
      ],
      "time": "2026-11-01T19:33:32.000Z",
      "url": "https://x.com/i/trending/2116289379153084483",
-     "score": 1.757
+     "score": 1.753
     },
     {
      "title": "Neuralink Unveils Telepathy and Blindsight Brain Implants",
@@ -237,7 +323,7 @@
      ],
      "time": "2026-11-01T02:56:52.000Z",
      "url": "https://x.com/i/trending/2116056628185174262",
-     "score": 1.73
+     "score": 1.726
     },
     {
      "title": "Cisco Tasks Young Engineer",
@@ -251,7 +337,7 @@
      ],
      "time": "2026-11-01T21:26:31.000Z",
      "url": "https://x.com/i/trending/2116961333711114359",
-     "score": 1.726
+     "score": 1.722
     }
    ]
   },
@@ -270,7 +356,7 @@
      ],
      "time": "2026-11-01T20:35:06.000Z",
      "url": "https://x.com/i/trending/2116989758341849359",
-     "score": 4.137
+     "score": 4.133
     },
     {
      "title": "Prince Reza Pahlavi Visits Belgium and Germany to Rally...",
@@ -283,7 +369,7 @@
      ],
      "time": "2026-11-01T19:33:45.000Z",
      "url": "https://x.com/i/trending/2116975339393929496",
-     "score": 3.182
+     "score": 3.178
     },
     {
      "title": "Putin Open to Zelenskyy Meeting in Moscow",
@@ -296,7 +382,7 @@
      ],
      "time": "2026-10-31T21:28:29.000Z",
      "url": "https://x.com/i/trending/2116407268694519943",
-     "score": 3.377
+     "score": 3.372
     },
     {
      "title": "Zelenskyy Confirms Ukraine's Diesel Strikes on Russia...",
@@ -309,7 +395,7 @@
      ],
      "time": "2026-11-01T21:27:56.000Z",
      "url": "https://x.com/i/trending/2117003995650892089",
-     "score": 2.352
+     "score": 2.347
     },
     {
      "title": "Merz Warns Iran Conflict Costs Europe €100 Billion in Energy",
@@ -322,7 +408,7 @@
      ],
      "time": "2026-11-01T13:33:52.000Z",
      "url": "https://x.com/i/trending/2116298067662217650",
-     "score": 2.032
+     "score": 2.028
     },
     {
      "title": "Trump Vows to Become 'Mr. Veto' If Democrats Win Midterms",
@@ -335,7 +421,7 @@
      ],
      "time": "2026-11-01T21:16:03.000Z",
      "url": "https://x.com/i/trending/2116904544869228556",
-     "score": 2.473
+     "score": 2.469
     }
    ]
   },
@@ -354,7 +440,7 @@
      ],
      "time": "2026-10-31T15:42:38.000Z",
      "url": "https://x.com/i/trending/2116107760878403705",
-     "score": 2.24
+     "score": 2.238
     },
     {
      "title": "Sarah J. Maas' New ACOTAR Book Sells 1.7 Million...",
@@ -367,7 +453,7 @@
      ],
      "time": "2026-10-31T00:35:14.000Z",
      "url": "https://x.com/i/trending/2116193867846562002",
-     "score": 2.114
+     "score": 2.112
     },
     {
      "title": "Osamason Announces Nocturnal Album for Thanksgiving Night",
@@ -380,7 +466,7 @@
      ],
      "time": "2026-11-01T15:37:14.000Z",
      "url": "https://x.com/i/trending/2116915789731107021",
-     "score": 2.44
+     "score": 2.437
     },
     {
      "title": "Museums at Night with Wine and Jazz Draw Adult Crowds",
@@ -393,7 +479,7 @@
      ],
      "time": "2026-10-31T12:57:23.000Z",
      "url": "https://x.com/i/trending/2116513633106592221",
-     "score": 2.155
+     "score": 2.153
     },
     {
      "title": "Robert Caro Reflects on Power in Rare Podcast Interview",
@@ -406,7 +492,7 @@
      ],
      "time": "2026-10-31T03:08:17.000Z",
      "url": "https://x.com/i/trending/2115870733716820284",
-     "score": 1.948
+     "score": 1.946
     },
     {
      "title": "Elissa Announces Elissar Album for November 5 Release",
@@ -419,7 +505,7 @@
      ],
      "time": "2026-11-01T20:33:36.000Z",
      "url": "https://x.com/i/trending/2116908075370365294",
-     "score": 2.356
+     "score": 2.354
     }
    ]
   },
@@ -438,7 +524,7 @@
      ],
      "time": "2026-11-01T20:33:35.000Z",
      "url": "https://x.com/i/trending/2116890094657294496",
-     "score": 2.211
+     "score": 2.207
     },
     {
      "title": "Antonelli Nears Youngest F1 Title",
@@ -451,7 +537,7 @@
      ],
      "time": "2026-11-01T19:00:40.000Z",
      "url": "https://x.com/i/trending/2116931179655864768",
-     "score": 2.123
+     "score": 2.119
     },
     {
      "title": "Harriet Dart Claims First WTA Title",
@@ -464,7 +550,7 @@
      ],
      "time": "2026-11-01T16:17:52.000Z",
      "url": "https://x.com/i/trending/2116847628533055640",
-     "score": 2.328
+     "score": 2.324
     },
     {
      "title": "Valkyries Win WNBA Finals in Tight Game 7 Over Dream",
@@ -477,7 +563,7 @@
      ],
      "time": "2026-11-01T02:57:15.000Z",
      "url": "https://x.com/i/trending/2116725067539214779",
-     "score": 2.043
+     "score": 2.039
     },
     {
      "title": "Chelsea Beats Manchester United 2-0 at Stamford Bridge",
@@ -490,7 +576,7 @@
      ],
      "time": "2026-10-31T22:10:37.000Z",
      "url": "https://x.com/i/trending/2116652558810849318",
-     "score": 2.088
+     "score": 2.084
     },
     {
      "title": "Hamilton Claims First Ferrari Pole",
@@ -503,7 +589,7 @@
      ],
      "time": "2026-11-01T18:29:32.000Z",
      "url": "https://x.com/i/trending/2116958571212747175",
-     "score": 1.99
+     "score": 1.985
     }
    ]
   },
@@ -522,7 +608,7 @@
      ],
      "time": "2026-10-31T21:49:39.000Z",
      "url": "https://x.com/i/trending/2116271761704751418",
-     "score": 2.608
+     "score": 2.603
     },
     {
      "title": "GMMTV Announces Gemini and Fourth's Marriage",
@@ -535,7 +621,7 @@
      ],
      "time": "2026-11-01T17:27:51.000Z",
      "url": "https://x.com/i/trending/2116942772951491060",
-     "score": 2.347
+     "score": 2.343
     },
     {
      "title": "Celebrity Traitors Faithfuls Win £83,000",
@@ -548,7 +634,7 @@
      ],
      "time": "2026-11-01T19:00:35.000Z",
      "url": "https://x.com/i/trending/2116470860676784296",
-     "score": 2.061
+     "score": 2.056
     },
     {
      "title": "Lee Grant Celebrates 101st Birthday",
@@ -561,7 +647,7 @@
      ],
      "time": "2026-10-31T20:21:11.000Z",
      "url": "https://x.com/i/trending/2116526616746803312",
-     "score": 1.933
+     "score": 1.929
     },
     {
      "title": "Mary J. Blige Delivers Epic Michael Jackson Thriller Tribute",
@@ -574,7 +660,7 @@
      ],
      "time": "2026-11-01T19:46:18.000Z",
      "url": "https://x.com/i/trending/2116978261850730971",
-     "score": 1.761
+     "score": 1.757
     },
     {
      "title": "Amaal Mallik Steals Spotlight at Bombay Times Fashion Week",
@@ -587,7 +673,7 @@
      ],
      "time": "2026-11-01T19:11:06.000Z",
      "url": "https://x.com/i/trending/2116969717781143998",
-     "score": 1.626
+     "score": 1.622
     }
    ]
   },
@@ -606,7 +692,7 @@
      ],
      "time": "2026-11-01T20:08:19.000Z",
      "url": "https://x.com/i/trending/2116757421540385049",
-     "score": 2.454
+     "score": 2.45
     },
     {
      "title": "The Gilded Age Returns with Season 4 Premiere Tonight",
@@ -619,7 +705,7 @@
      ],
      "time": "2026-11-01T19:46:34.000Z",
      "url": "https://x.com/i/trending/2116940492990722461",
-     "score": 2.448
+     "score": 2.444
     },
     {
      "title": "Lost 1993 Jurassic Park Animated Series Trailer Resurfaces",
@@ -632,7 +718,7 @@
      ],
      "time": "2026-11-01T05:23:41.000Z",
      "url": "https://x.com/i/trending/2116616112230052346",
-     "score": 2.084
+     "score": 2.079
     },
     {
      "title": "Zach Cregger's Resident Evil Reboot Tops $400 Million...",
@@ -645,7 +731,7 @@
      ],
      "time": "2026-11-01T20:42:43.000Z",
      "url": "https://x.com/i/trending/2116319408448520645",
-     "score": 2.402
+     "score": 2.397
     },
     {
      "title": "Netflix's 'Dead-End Job' Delivers Korean Horror",
@@ -658,7 +744,7 @@
      ],
      "time": "2026-11-01T17:46:21.000Z",
      "url": "https://x.com/i/trending/2116900757375230121",
-     "score": 2.228
+     "score": 2.223
     },
     {
      "title": "New Images Tease Scarlett Johansson",
@@ -671,7 +757,7 @@
      ],
      "time": "2026-11-01T20:42:28.000Z",
      "url": "https://x.com/i/trending/2116992847941427498",
-     "score": 1.901
+     "score": 1.897
     }
    ]
   }

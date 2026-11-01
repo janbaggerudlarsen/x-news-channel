@@ -3,7 +3,8 @@
  "station": "X NEWS",
  "timezone": "Europe/Warsaw",
  "page_seconds": 10,
- "max_per_page": 3, "max_per_category": 6,
+ "max_per_page": 3,
+ "max_per_category": 6,
  "stale_hours": 12,
  "reload_minutes": 10,
  "autoplay": true,
@@ -113,6 +114,66 @@
      "LeCun"
     ]
    }
+  },
+  {
+   "id": "omarchy",
+   "title": "Omarchy",
+   "top": "Omarchy",
+   "bottom": "News",
+   "max_age_hours": 168,
+   "keep_hours": 168,
+   "round_robin": true,
+   "queries": [
+    {
+     "tool": "gh_release",
+     "repo": "basecamp/omarchy",
+     "product": "Omarchy",
+     "per_page": 3
+    },
+    {
+     "tool": "search_posts_all",
+     "query": "(from:omarchy OR from:OmarchyUpdates OR from:OmarchyMac OR from:OmarchyLinux) -is:reply -is:retweet",
+     "days": 7,
+     "max_results": 50
+    },
+    {
+     "tool": "search_posts_all",
+     "query": "omarchy from:dhh -is:reply -is:retweet",
+     "days": 7,
+     "max_results": 30
+    },
+    {
+     "tool": "search_news",
+     "query": "Omarchy",
+     "max_age_hours": 168
+    }
+   ],
+   "handle_labels": {
+    "OmarchyUpdates": "unofficial"
+   },
+   "match": {
+    "head_text": [
+     "Omarchy"
+    ]
+   },
+   "exclude": {
+    "title_text": [
+     "^This is\\b",
+     "\\bthis thing\\b",
+     "^Thrilled to have",
+     "^Copied something",
+     "^Updated to .*vanished",
+     "^Two weeks ago"
+    ]
+   },
+   "boost": {
+    "title_text": [
+     "released",
+     "\\bRC\\d",
+     "\\d\\.\\d"
+    ]
+   },
+   "max_per_source": 2
   },
   {
    "id": "technology",
