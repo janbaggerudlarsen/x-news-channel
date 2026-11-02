@@ -40,6 +40,18 @@
 
   // ---- data ----
   // ---- text fit: shrink until the text fits its box (headlines may use 2 lines), down to 66 % ----
+  // ---- header title: one line if it fits next to the clock, else the classic two lines ----
+  const setTitle = (t, b) => {
+    setTitle.last = [t, b];     const T = $('tTop'), B = $('tBottom'), box = T.parentElement;
+    box.classList.remove('one'); box.style.fontSize = ''; T.textContent = b ? `${t} ${b}` : t; B.textContent = '';
+    const clock = document.querySelector('.header .clock');
+    let lim = (clock ? clock.offsetLeft : box.parentElement.clientWidth) - box.offsetLeft - 16;
+    const mw = parseFloat(getComputedStyle(T).maxWidth); if (!isNaN(mw)) lim = Math.min(lim, mw);
+    if (T.scrollWidth <= lim) { box.classList.add('one'); return; }
+    T.textContent = t; B.textContent = b || '';
+    const base = parseFloat(getComputedStyle(box).fontSize); let fs = base;
+    while (Math.max(T.scrollWidth, B.scrollWidth) > lim && fs > base * 0.66) { fs -= 0.5; box.style.fontSize = fs + 'px'; }
+  };
   const fitEl = (el) => {
     el.style.fontSize = ''; const base = parseFloat(getComputedStyle(el).fontSize); let fs = base;
     const multi = el.classList.contains('h');
@@ -47,7 +59,7 @@
     while (over() && fs > base * 0.66) { fs -= 0.5; el.style.fontSize = fs + 'px'; }
   };
   const fitAll = (root) => (root || stage).querySelectorAll('#stories .h, #stories .s, .empty .h, [data-fit]').forEach(fitEl);
-  if (document.fonts && document.fonts.ready) document.fonts.ready.then(() => { fitAll(); fitAll(document.querySelector('.header')); });
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(() => { if (setTitle.last) setTitle(...setTitle.last); fitAll(); fitAll(document.querySelector('.header')); });
   const getJSON = async (u) => { const r = await fetch(`${u}?t=${Date.now()}`, { cache: 'no-store' }); if (!r.ok) throw new Error(`${u}: HTTP ${r.status}`); return r.json(); };
   const load = async () => {
     try { cfg = { ...cfg, ...(await getJSON('config.json')) }; } catch (e) { /* keep defaults */ }
@@ -114,7 +126,7 @@
     const ol = $('stories');
     const paint = () => {
       if (!pages.length) {
-        $('tTop').textContent = 'X News'; $('tBottom').textContent = 'Channel';
+        setTitle('X News', 'Channel');
         const why = newsError ? 'news.json could not be loaded.' : 'news.json has no stories yet.';
         ol.innerHTML = `<li class="empty"><div class="h">NO HEADLINES RIGHT NOW</div><div class="s">${why} The channel will check again every ${cfg.reload_minutes || 10} minutes.</div></li>`;
         $('pageno').textContent = '';
@@ -122,7 +134,7 @@
       }
       idx = (i + pages.length) % pages.length;
       const p = pages[idx];
-      $('tTop').textContent = p.top; $('tBottom').textContent = p.bottom;
+      setTitle(p.top, p.bottom);
       ol.innerHTML = p.stories.map((s) =>
         `<li data-url="${esc(s.url)}" title="${esc(s.full_title || s.title)}"><div class="h">${esc(s.title)}</div>` +
         `<div class="s"><span class="ago">${ago(s.time)}</span> ON ${esc((s.via || 'X').toUpperCase())}${s.source ? ` - ${esc(s.source)}` : ''}${s.label ? ` (${esc(s.label)})` : ''}</div></li>`).join('');

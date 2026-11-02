@@ -43,6 +43,7 @@ body.kiosk, body.kiosk * { cursor: none !important; }
 }
 .header .title .top { position: absolute; top: 0; }
 .header .title .bottom { position: absolute; top: 28px; }
+.header .title.one .top { top: 14px; }
 .header .clock {
   position: absolute; right: 36px; top: 33px; z-index: 3; text-align: right;
   font: 22pt/1.05 'Star4000 Small', 'DejaVu Sans Condensed', 'DejaVu Sans', sans-serif; text-shadow: var(--shadow); white-space: pre;
