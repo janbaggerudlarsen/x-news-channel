@@ -157,7 +157,7 @@
   const target = () => (window.mfmMusic && window.mfmMusic.volume) || 55;
   let playing = false, fadeTimer = null;
   const musicBtn = $('ToggleMusic');
-  const fadeIn = (wa) => {
+  const fadeIn = (wa) => { window.__mfmFadeStart = Date.now();
     clearInterval(fadeTimer); wa.setVolume(0); const t0 = Date.now();
     fadeTimer = setInterval(() => {
       const k = Math.min(1, (Date.now() - t0) / FADE_MS); const v = Math.round(target() * k);
@@ -174,6 +174,7 @@
     document.documentElement.dataset.music = on ? 'playing' : 'off';
   };
   musicBtn.addEventListener('click', () => setMusic(!playing));
+  window.mfmSetMusic = setMusic; window.mfmFading = () => Date.now() - (window.__mfmFadeStart || 0) < FADE_MS + 300;
   // Autoplay: ?autoplay=1, or "autoplay": true in config.json (?autoplay=0 turns it off).
   // If the browser blocks sound until a user gesture, music starts (with the fade) on the first click or key.
   const isPlaying = () => window.webamp && window.webamp.getMediaStatus && window.webamp.getMediaStatus() === 'PLAYING';
@@ -183,6 +184,7 @@
     const onGesture = (e) => {
       if (e.type === 'keydown' && (e.key === 'm' || e.key === 'M')) return;
       if (e.target === musicBtn) return;
+      if (e.target.closest && e.target.closest('#soundIcon')) return;
       removeEventListener('pointerdown', onGesture, true); removeEventListener('keydown', onGesture, true);
       if (!isPlaying() && window.webamp) setMusic(true).catch(() => {});
     };
