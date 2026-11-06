@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-06T06:11:12Z",
- "generated_at_local": "2026-11-06 07:11",
+ "generated_at": "2026-11-06T16:15:39Z",
+ "generated_at_local": "2026-11-06 17:15",
  "timezone": "Europe/Warsaw",
  "source": "X News stories (summaries of posts on X; may evolve, verify before relying on them)",
  "categories": [
@@ -20,7 +20,7 @@
      ],
      "time": "2026-11-05T13:50:16.000Z",
      "url": "https://x.com/i/trending/2118338569156677670",
-     "score": 4.834
+     "score": 4.903
     },
     {
      "title": "Grok Bot's Pages Turn Chats into Interactive Documents",
@@ -33,21 +33,20 @@
      ],
      "time": "2026-11-04T21:00:15.000Z",
      "url": "https://x.com/i/trending/2118083610074882532",
-     "score": 4.553
+     "score": 4.622
     },
     {
-     "title": "Grok Bot Users Hit Usage Limits Early Due to Cost...",
-     "full_title": "Grok Bot Users Hit Usage Limits Early Due to Cost Adjustments",
+     "title": "Grok Bot Users Hit by Sudden Usage Limits Amid High Costs",
+     "full_title": "Grok Bot Users Hit by Sudden Usage Limits Amid High Costs",
      "summary": "",
      "category": "Grok Bot",
-     "x_category": "Other",
+     "x_category": "News",
      "topics": [
-      "Technology",
-      "AI"
+      "Technology"
      ],
-     "time": "2026-11-05T17:31:31.000Z",
-     "url": "https://x.com/i/trending/2117846710978531565",
-     "score": 4.48
+     "time": "2026-11-06T06:05:09.000Z",
+     "url": "https://x.com/i/trending/2118549003012870453",
+     "score": 4.493
     },
     {
      "title": "Grok Bot Launches Simplified Shopping Tools",
@@ -60,21 +59,34 @@
      ],
      "time": "2026-11-04T19:45:58.000Z",
      "url": "https://x.com/i/trending/2117985850856219024",
-     "score": 4.421
+     "score": 4.365
     },
     {
-     "title": "Grok Names Musk in Epstein Island Query Before Response...",
-     "full_title": "Grok Names Musk in Epstein Island Query Before Response Vanishes",
+     "title": "Grok Names Musk in Epstein Island Query, Response Vanishes",
+     "full_title": "Grok Names Musk in Epstein Island Query, Response Vanishes",
      "summary": "",
      "category": "Grok Bot",
      "x_category": "News",
      "topics": [
-      "News",
-      "Crime"
+      "Technology"
      ],
-     "time": "2026-11-06T05:17:29.000Z",
+     "time": "2026-11-06T12:56:48.000Z",
      "url": "https://x.com/i/trending/2118454918914920574",
-     "score": 2.608
+     "score": 3.282
+    },
+    {
+     "title": "Elon Musk Urges Treating Grok Bot Like a Colleague",
+     "full_title": "Elon Musk Urges Treating Grok Bot Like a Colleague",
+     "summary": "",
+     "category": "Grok Bot",
+     "x_category": "News",
+     "topics": [
+      "Technology",
+      "AI"
+     ],
+     "time": "2026-11-03T18:11:38.000Z",
+     "url": "https://x.com/i/trending/2117634523122876425",
+     "score": 2.111
     }
    ]
   },
@@ -93,7 +105,7 @@
      ],
      "time": "2026-11-06T04:10:53.000Z",
      "url": "https://x.com/i/trending/2118555311078309901",
-     "score": 3.829
+     "score": 4.536
     },
     {
      "title": "OpenAI's GPT-6 Cyber Uncovers 948 Linux Kernel...",
@@ -105,64 +117,64 @@
       "Technology",
       "AI"
      ],
-     "time": "2026-11-06T04:11:13.000Z",
+     "time": "2026-11-06T14:56:14.000Z",
      "url": "https://x.com/i/trending/2118125161194926199",
-     "score": 3.304
+     "score": 3.44
     },
     {
-     "title": "Anthropic Leaders Exit for OpenAI Ahead of Massive IPO",
-     "full_title": "Anthropic Leaders Exit for OpenAI Ahead of Massive IPO",
+     "title": "OpenAI Community Awaits Possible GPT-6.2 Astra Release",
+     "full_title": "OpenAI Community Awaits Possible GPT-6.2 Astra Release",
+     "summary": "",
+     "category": "AI",
+     "x_category": "News",
+     "topics": [
+      "Technology",
+      "AI"
+     ],
+     "time": "2026-11-06T14:16:19.000Z",
+     "url": "https://x.com/i/trending/2118600516720599441",
+     "score": 3.429
+    },
+    {
+     "title": "Thinking Machines Lab Unveils Inkling 2 Small AI Model",
+     "full_title": "Thinking Machines Lab Unveils Inkling 2 Small AI Model",
+     "summary": "",
+     "category": "AI",
+     "x_category": "News",
+     "topics": [
+      "Technology",
+      "AI"
+     ],
+     "time": "2026-11-06T14:35:57.000Z",
+     "url": "https://x.com/i/trending/2118493638007062804",
+     "score": 3.31
+    },
+    {
+     "title": "Google Launches Gemini Omni 1.2 Flash",
+     "full_title": "Google Launches Gemini Omni 1.2 Flash with Longer Videos and Smarter Edits",
+     "summary": "",
+     "category": "AI",
+     "x_category": "News",
+     "topics": [
+      "Technology",
+      "AI"
+     ],
+     "time": "2026-11-06T14:25:17.000Z",
+     "url": "https://x.com/i/trending/2118277194313289798",
+     "score": 2.969
+    },
+    {
+     "title": "OpenAI Hires Anthropic's Cat Wu to Lead Core Product...",
+     "full_title": "OpenAI Hires Anthropic's Cat Wu to Lead Core Product Management",
      "summary": "",
      "category": "AI",
      "x_category": "News",
      "topics": [
       "Technology"
      ],
-     "time": "2026-11-05T10:54:43.000Z",
-     "url": "https://x.com/i/trending/2117579420454248497",
-     "score": 3.204
-    },
-    {
-     "title": "Thinking Machines Lab Unveils High-Performing Inkling 2...",
-     "full_title": "Thinking Machines Lab Unveils High-Performing Inkling 2 Small AI Model",
-     "summary": "",
-     "category": "AI",
-     "x_category": "News",
-     "topics": [
-      "Technology",
-      "AI"
-     ],
-     "time": "2026-11-06T05:08:12.000Z",
-     "url": "https://x.com/i/trending/2118493638007062804",
-     "score": 2.945
-    },
-    {
-     "title": "AI Model Collapse and OpenAI Safety Rewrites Draw Attention",
-     "full_title": "AI Model Collapse and OpenAI Safety Rewrites Draw Attention",
-     "summary": "",
-     "category": "AI",
-     "x_category": "Other",
-     "topics": [
-      "Technology",
-      "AI"
-     ],
-     "time": "2026-11-05T23:19:36.000Z",
-     "url": "https://x.com/i/trending/2118351761786188038",
-     "score": 2.911
-    },
-    {
-     "title": "Oumi Launches FAiE to Automate Custom AI Agent Building",
-     "full_title": "Oumi Launches FAiE to Automate Custom AI Agent Building",
-     "summary": "",
-     "category": "AI",
-     "x_category": "News",
-     "topics": [
-      "Technology",
-      "AI"
-     ],
-     "time": "2026-11-05T14:23:30.000Z",
-     "url": "https://x.com/i/trending/2118200427053260808",
-     "score": 2.887
+     "time": "2026-11-05T21:21:22.000Z",
+     "url": "https://x.com/i/trending/2118298101572055268",
+     "score": 2.96
     }
    ]
   },
@@ -179,7 +191,7 @@
      "topics": [],
      "time": "2026-11-05T05:36:53Z",
      "url": "https://github.com/omacom/omarchy/releases/tag/v4.5.0",
-     "score": 2.412,
+     "score": 2.376,
      "source": "omacom/omarchy",
      "via": "GitHub"
     },
@@ -192,33 +204,7 @@
      "topics": [],
      "time": "2026-11-05T05:43:25.000Z",
      "url": "https://x.com/dhh/status/2118217599763018123",
-     "score": 3.236,
-     "source": "@dhh",
-     "via": "X"
-    },
-    {
-     "title": "Omarchy Core welcomes maralcbr",
-     "full_title": "Omarchy Core welcomes maralcbr as the M team delegate and BirkSkyum as the Dragon team delegate",
-     "summary": "",
-     "category": "Omarchy",
-     "x_category": "Post",
-     "topics": [],
-     "time": "2026-11-05T15:57:21.000Z",
-     "url": "https://x.com/omarchy/status/2118372103741464699",
-     "score": 2.895,
-     "source": "@omarchy",
-     "via": "X"
-    },
-    {
-     "title": "Beautiful day for a big Omarchy release",
-     "full_title": "Beautiful day for a big Omarchy release",
-     "summary": "",
-     "category": "Omarchy",
-     "x_category": "Post",
-     "topics": [],
-     "time": "2026-11-04T14:33:23.000Z",
-     "url": "https://x.com/dhh/status/2117988584942961066",
-     "score": 3.202,
+     "score": 3.208,
      "source": "@dhh",
      "via": "X"
     },
@@ -231,23 +217,50 @@
      "topics": [],
      "time": "2026-11-06T04:00:08.000Z",
      "url": "https://x.com/OmarchyUpdates/status/2118553997535793639",
-     "score": 2.688,
+     "score": 2.783,
      "source": "@OmarchyUpdates",
      "via": "X",
      "label": "unofficial"
     },
     {
-     "title": "The wait ends",
-     "full_title": "The wait ends",
+     "title": "Beautiful day for a big Omarchy release",
+     "full_title": "Beautiful day for a big Omarchy release",
      "summary": "",
      "category": "Omarchy",
      "x_category": "Post",
      "topics": [],
-     "time": "2026-11-04T16:50:51.000Z",
-     "url": "https://x.com/OmarchyMac/status/2118023180677951588",
-     "score": 2.594,
-     "source": "@OmarchyMac",
+     "time": "2026-11-04T14:33:23.000Z",
+     "url": "https://x.com/dhh/status/2117988584942961066",
+     "score": 3.17,
+     "source": "@dhh",
      "via": "X"
+    },
+    {
+     "title": "Omarchy Core welcomes maralcbr",
+     "full_title": "Omarchy Core welcomes maralcbr as the M team delegate and BirkSkyum as the Dragon team delegate",
+     "summary": "",
+     "category": "Omarchy",
+     "x_category": "Post",
+     "topics": [],
+     "time": "2026-11-05T15:57:21.000Z",
+     "url": "https://x.com/omarchy/status/2118372103741464699",
+     "score": 2.769,
+     "source": "@omarchy",
+     "via": "X"
+    },
+    {
+     "title": "DHH's Linux distro merged 577 changes in 30 days",
+     "full_title": "DHH's Linux distro merged 577 changes in 30 days",
+     "summary": "",
+     "category": "Omarchy",
+     "x_category": "Post",
+     "topics": [],
+     "time": "2026-11-06T08:00:10.000Z",
+     "url": "https://x.com/OmarchyUpdates/status/2118614402505293828",
+     "score": 2.648,
+     "source": "@OmarchyUpdates",
+     "via": "X",
+     "label": "unofficial"
     }
    ]
   },
@@ -263,12 +276,39 @@
      "x_category": "News",
      "topics": [
       "Technology",
-      "AI",
-      "Business & Finance"
+      "AI"
      ],
      "time": "2026-11-05T22:54:29.000Z",
      "url": "https://x.com/i/trending/2118080200462180795",
-     "score": 3.091
+     "score": 2.423
+    },
+    {
+     "title": "Apple Launches First Touchscreen MacBook Pro",
+     "full_title": "Apple Launches First Touchscreen MacBook Pro with PROLED XDR Display",
+     "summary": "",
+     "category": "Technology",
+     "x_category": "Other",
+     "topics": [
+      "Technology"
+     ],
+     "time": "2026-11-06T09:57:21.000Z",
+     "url": "https://x.com/i/trending/2118642932836343828",
+     "score": 2.207
+    },
+    {
+     "title": "Deutsche Telekom CEO Estimates $200 Billion",
+     "full_title": "Deutsche Telekom CEO Estimates $200 Billion for SpaceX US Wireless Network",
+     "summary": "",
+     "category": "Technology",
+     "x_category": "News",
+     "topics": [
+      "Business & Finance",
+      "Technology",
+      "Space"
+     ],
+     "time": "2026-11-06T13:35:01.000Z",
+     "url": "https://x.com/i/trending/2118696357905272883",
+     "score": 2.018
     },
     {
      "title": "Glasshand Lets AI Agents Rent Real iPhones and Macs",
@@ -282,63 +322,33 @@
      ],
      "time": "2026-11-06T06:04:54.000Z",
      "url": "https://x.com/i/trending/2118478224711905460",
-     "score": 2.961
+     "score": 2.018
     },
     {
-     "title": "Google Commits $15 Billion to Malaysia Data Centers",
-     "full_title": "Google Commits $15 Billion to Malaysia Data Centers Amid U.S. Hurdles",
+     "title": "Zomato's Deepinder Goyal Defends ₹85,000 Temple Wearable...",
+     "full_title": "Zomato's Deepinder Goyal Defends ₹85,000 Temple Wearable Against Doctors' Scam Claims",
      "summary": "",
      "category": "Technology",
      "x_category": "News",
      "topics": [
-      "Technology",
-      "AI"
+      "Technology"
      ],
-     "time": "2026-11-06T04:19:44.000Z",
-     "url": "https://x.com/i/trending/2118448222796681249",
-     "score": 2.032
+     "time": "2026-11-06T15:46:15.000Z",
+     "url": "https://x.com/i/trending/2118358833143726087",
+     "score": 1.992
     },
     {
-     "title": "TikTok Runs On-Device AI to Score Selfies and Guess Emotions",
-     "full_title": "TikTok Runs On-Device AI to Score Selfies and Guess Emotions",
+     "title": "Microsoft Engineer's Thread Reveals Azure's Enterprise...",
+     "full_title": "Microsoft Engineer's Thread Reveals Azure's Enterprise Focus and Scale",
      "summary": "",
      "category": "Technology",
      "x_category": "Other",
      "topics": [
-      "Technology",
-      "AI"
+      "Business & Finance"
      ],
-     "time": "2026-11-06T04:28:32.000Z",
-     "url": "https://x.com/i/trending/2117979576559436027",
-     "score": 1.909
-    },
-    {
-     "title": "iFLYTEK's AI Blackboard Transforms Classroom Sketches...",
-     "full_title": "iFLYTEK's AI Blackboard Transforms Classroom Sketches into 3D Models",
-     "summary": "",
-     "category": "Technology",
-     "x_category": "News",
-     "topics": [
-      "Technology",
-      "AI"
-     ],
-     "time": "2026-11-05T21:08:17.000Z",
-     "url": "https://x.com/i/trending/2118312036665000227",
-     "score": 1.849
-    },
-    {
-     "title": "Google Forces Schools to Choose Between AI Tools...",
-     "full_title": "Google Forces Schools to Choose Between AI Tools and Basic Search",
-     "summary": "",
-     "category": "Technology",
-     "x_category": "News",
-     "topics": [
-      "Technology",
-      "Education"
-     ],
-     "time": "2026-11-06T02:43:27.000Z",
-     "url": "https://x.com/i/trending/2118533273064513770",
-     "score": 1.817
+     "time": "2026-11-06T08:15:28.000Z",
+     "url": "https://x.com/i/trending/2118569966001627184",
+     "score": 1.991
     }
    ]
   },
@@ -357,20 +367,20 @@
      ],
      "time": "2026-11-05T17:04:12.000Z",
      "url": "https://x.com/i/trending/2118386778453221755",
-     "score": 5.731
+     "score": 5.501
     },
     {
-     "title": "Zelenskyy Prepares Trilateral Talks with U.S. and Russia",
-     "full_title": "Zelenskyy Prepares Trilateral Talks with U.S. and Russia in Abu Dhabi",
+     "title": "Belgium's King Philippe Rejects De Wever's Resignation",
+     "full_title": "Belgium's King Philippe Rejects De Wever's Resignation, Orders Budget Talks to Resume",
      "summary": "",
      "category": "Politics",
      "x_category": "News",
      "topics": [
       "Politics"
      ],
-     "time": "2026-11-06T05:49:20.000Z",
-     "url": "https://x.com/i/trending/2118116396995322232",
-     "score": 2.831
+     "time": "2026-11-06T15:26:20.000Z",
+     "url": "https://x.com/i/trending/2118692102905442337",
+     "score": 2.324
     },
     {
      "title": "Trump Warns of Destroying Rest of Iran After Midterms",
@@ -383,7 +393,7 @@
      ],
      "time": "2026-11-06T01:27:25.000Z",
      "url": "https://x.com/i/trending/2118458552000110812",
-     "score": 3.134
+     "score": 2.841
     },
     {
      "title": "Zelenskyy Warns Russia Conscripting Abducted Ukrainian...",
@@ -396,33 +406,34 @@
      ],
      "time": "2026-11-06T02:43:46.000Z",
      "url": "https://x.com/i/trending/2118413812210741732",
-     "score": 2.317
+     "score": 2.149
     },
     {
-     "title": "Germany Names Lt. Gen. Freuding as New Top Military Chief",
-     "full_title": "Germany Names Lt. Gen. Freuding as New Top Military Chief",
+     "title": "Why England Never Fully Merged Scottish and Irish Identities",
+     "full_title": "Why England Never Fully Merged Scottish and Irish Identities",
+     "summary": "",
+     "category": "Politics",
+     "x_category": "Other",
+     "topics": [
+      "News",
+      "Politics"
+     ],
+     "time": "2026-11-06T13:34:49.000Z",
+     "url": "https://x.com/i/trending/2118611295457165349",
+     "score": 1.705
+    },
+    {
+     "title": "Rep. Jamie Raskin Asserts Congress's Powers Over Trump",
+     "full_title": "Rep. Jamie Raskin Asserts Congress's Powers Over Trump After Democratic Sweep",
      "summary": "",
      "category": "Politics",
      "x_category": "News",
      "topics": [
       "Politics"
      ],
-     "time": "2026-11-05T17:15:32.000Z",
-     "url": "https://x.com/i/trending/2118390282194464972",
-     "score": 1.597
-    },
-    {
-     "title": "Trump Designates Oval Office and Cabinet Room",
-     "full_title": "Trump Designates Oval Office and Cabinet Room as National Monument",
-     "summary": "",
-     "category": "Politics",
-     "x_category": "News",
-     "topics": [
-      "Politics"
-     ],
-     "time": "2026-11-06T05:33:49.000Z",
-     "url": "https://x.com/i/trending/2118540140092227717",
-     "score": 2.365
+     "time": "2026-11-05T23:31:40.000Z",
+     "url": "https://x.com/i/trending/2118484456902443084",
+     "score": 2.158
     }
    ]
   },
@@ -431,17 +442,17 @@
    "title": "Culture",
    "stories": [
     {
-     "title": "Woman's Tears at Kiki Smith Exhibit Spark Art Beauty Debate",
-     "full_title": "Woman's Tears at Kiki Smith Exhibit Spark Art Beauty Debate",
+     "title": "Woman in Tears Over Kiki Smith's Dark Art Exhibit Sparks...",
+     "full_title": "Woman in Tears Over Kiki Smith's Dark Art Exhibit Sparks Divide",
      "summary": "",
      "category": "Culture",
      "x_category": "Entertainment",
      "topics": [
       "Art"
      ],
-     "time": "2026-11-06T05:34:40.000Z",
+     "time": "2026-11-06T15:57:49.000Z",
      "url": "https://x.com/i/trending/2118535519739277522",
-     "score": 1.995
+     "score": 1.935
     },
     {
      "title": "Readers Confess Most Boring Books They've Endured",
@@ -454,35 +465,33 @@
      ],
      "time": "2026-11-06T00:31:19.000Z",
      "url": "https://x.com/i/trending/2118499612944388414",
-     "score": 2.39
+     "score": 2.306
     },
     {
-     "title": "Elissa Releases 14th Album Elissar",
-     "full_title": "Elissa Releases 14th Album Elissar After Two Years of Challenges",
+     "title": "Shygirl Drops 'Swallow!' Album",
+     "full_title": "Shygirl Drops 'Swallow!' Album Amid Fan Defenses Against Criticism",
      "summary": "",
      "category": "Culture",
      "x_category": "Entertainment",
      "topics": [
-      "Music",
-      "Pop"
+      "Music"
      ],
-     "time": "2026-11-05T22:53:43.000Z",
-     "url": "https://x.com/i/trending/2118358834347467110",
-     "score": 2.439
+     "time": "2026-11-06T11:21:15.000Z",
+     "url": "https://x.com/i/trending/2118530652148814138",
+     "score": 2.459
     },
     {
-     "title": "Adam Weitsman Buys Dave Krugman's 'CITY' for $150,000",
-     "full_title": "Adam Weitsman Buys Dave Krugman's 'CITY' for $150,000",
+     "title": "Hyunjin Shares Watercolor Paintings from Giverny Trip",
+     "full_title": "Hyunjin Shares Watercolor Paintings from Giverny Trip",
      "summary": "",
      "category": "Culture",
      "x_category": "Entertainment",
      "topics": [
-      "Art",
-      "Cryptocurrency"
+      "Art"
      ],
-     "time": "2026-11-05T23:45:49.000Z",
-     "url": "https://x.com/i/trending/2118356264891662425",
-     "score": 1.571
+     "time": "2026-11-04T16:29:01.000Z",
+     "url": "https://x.com/i/trending/2117967088992096369",
+     "score": 1.414
     },
     {
      "title": "Strand Book Store Settles PPP Loan Claims for $1.5 Million",
@@ -495,20 +504,20 @@
      ],
      "time": "2026-11-05T20:40:48.000Z",
      "url": "https://x.com/i/trending/2117738775254282362",
-     "score": 2.296
+     "score": 2.212
     },
     {
-     "title": "Mark Lee Releases 'Happiest' Ahead of 'WINDMILL' Album Debut",
-     "full_title": "Mark Lee Releases 'Happiest' Ahead of 'WINDMILL' Album Debut",
+     "title": "Lil Baby Releases Fifth Album FRESH with Split Fan Reactions",
+     "full_title": "Lil Baby Releases Fifth Album FRESH with Split Fan Reactions",
      "summary": "",
      "category": "Culture",
      "x_category": "Entertainment",
      "topics": [
-      "Music"
+      "Hip Hop"
      ],
-     "time": "2026-11-06T04:10:42.000Z",
-     "url": "https://x.com/i/trending/2117849286964838671",
-     "score": 2.358
+     "time": "2026-11-06T15:57:36.000Z",
+     "url": "https://x.com/i/trending/2118559519261528247",
+     "score": 2.372
     }
    ]
   },
@@ -517,18 +526,17 @@
    "title": "Sport",
    "stories": [
     {
-     "title": "Crystal Palace Draws Hoffenheim",
-     "full_title": "Crystal Palace Draws Hoffenheim, Bournemouth Beats Sparta Prague",
+     "title": "United's Dramatic Comeback Sinks Roma 3-2",
+     "full_title": "United's Dramatic Comeback Sinks Roma 3-2 in Champions League Thriller",
      "summary": "",
      "category": "Sport",
      "x_category": "Sports",
      "topics": [
-      "UEFA Europa League",
-      "UEFA Conference League"
+      "Premier League"
      ],
-     "time": "2026-11-05T21:36:44.000Z",
-     "url": "https://x.com/i/trending/2118403335292088556",
-     "score": 2.232
+     "time": "2026-11-06T13:23:09.000Z",
+     "url": "https://x.com/i/trending/2117993235708891139",
+     "score": 2.327
     },
     {
      "title": "Kimi Antonelli Arrives in São Paulo",
@@ -541,20 +549,20 @@
      ],
      "time": "2026-11-06T04:11:14.000Z",
      "url": "https://x.com/i/trending/2118555310247801120",
-     "score": 2.342
+     "score": 2.299
     },
     {
-     "title": "WTA Finals Switch to Individual Player Portraits for 2026",
-     "full_title": "WTA Finals Switch to Individual Player Portraits for 2026",
+     "title": "WTA Finals Unveils Individual Player Portraits",
+     "full_title": "WTA Finals Unveils Individual Player Portraits for 2026 Event",
      "summary": "",
      "category": "Sport",
      "x_category": "Sports",
      "topics": [
       "Tennis"
      ],
-     "time": "2026-11-06T03:01:49.000Z",
+     "time": "2026-11-06T15:35:26.000Z",
      "url": "https://x.com/i/trending/2118424038489899146",
-     "score": 2.447
+     "score": 2.489
     },
     {
      "title": "NFL Week 9 Kicks Off with Ravens-Jaguars Thursday Night",
@@ -567,33 +575,34 @@
      ],
      "time": "2026-11-06T01:03:04.000Z",
      "url": "https://x.com/i/trending/2118022296392839235",
-     "score": 1.852
+     "score": 1.621
     },
     {
-     "title": "Arsenal Climb to Third in Champions League",
-     "full_title": "Arsenal Climb to Third in Champions League with Unbeaten Streak at 19 Games",
+     "title": "Crystal Palace Draws Hoffenheim",
+     "full_title": "Crystal Palace Draws Hoffenheim, Bournemouth Beats Sparta Prague",
      "summary": "",
      "category": "Sport",
      "x_category": "Sports",
      "topics": [
-      "UEFA Champions League"
+      "UEFA Europa League",
+      "UEFA Conference League"
      ],
-     "time": "2026-11-05T16:26:42.000Z",
-     "url": "https://x.com/i/trending/2118011723898892512",
-     "score": 2.208
+     "time": "2026-11-05T21:36:44.000Z",
+     "url": "https://x.com/i/trending/2118403335292088556",
+     "score": 1.939
     },
     {
-     "title": "Antonelli Claims F1 Title as Ferrari Teammates Clash",
-     "full_title": "Antonelli Claims F1 Title as Ferrari Teammates Clash in Mexico",
+     "title": "Kimi Antonelli Claims F1 Title",
+     "full_title": "Kimi Antonelli Claims F1 Title as Mercedes' Youngest Champion at 20",
      "summary": "",
      "category": "Sport",
      "x_category": "Sports",
      "topics": [
       "Formula 1"
      ],
-     "time": "2026-11-05T10:10:41.000Z",
-     "url": "https://x.com/i/trending/2118283709140930599",
-     "score": 2.192
+     "time": "2026-11-06T13:06:29.000Z",
+     "url": "https://x.com/i/trending/2118072721510658177",
+     "score": 2.26
     }
    ]
   },
@@ -612,20 +621,7 @@
      ],
      "time": "2026-11-05T16:51:27.000Z",
      "url": "https://x.com/i/trending/2118274037075894664",
-     "score": 2.928
-    },
-    {
-     "title": "Emma Stone Turns 38 with Fans Sharing Career Tributes",
-     "full_title": "Emma Stone Turns 38 with Fans Sharing Career Tributes",
-     "summary": "",
-     "category": "Celebrity",
-     "x_category": "Entertainment",
-     "topics": [
-      "Celebrity"
-     ],
-     "time": "2026-11-06T04:52:14.000Z",
-     "url": "https://x.com/i/trending/2118566075918921958",
-     "score": 2.478
+     "score": 2.697
     },
     {
      "title": "Fans Honor Vivien Leigh's 113th Birthday",
@@ -638,7 +634,7 @@
      ],
      "time": "2026-11-06T02:05:08.000Z",
      "url": "https://x.com/i/trending/2118293230768832907",
-     "score": 2.369
+     "score": 2.201
     },
     {
      "title": "Robin Roberts and George Stephanopoulos Honored",
@@ -651,20 +647,7 @@
      ],
      "time": "2026-11-06T04:18:08.000Z",
      "url": "https://x.com/i/trending/2118478219917901879",
-     "score": 2.181
-    },
-    {
-     "title": "Jen Affleck Files for Divorce from Zac After Seven Years",
-     "full_title": "Jen Affleck Files for Divorce from Zac After Seven Years",
-     "summary": "",
-     "category": "Celebrity",
-     "x_category": "Entertainment",
-     "topics": [
-      "Celebrity"
-     ],
-     "time": "2026-11-06T02:43:10.000Z",
-     "url": "https://x.com/i/trending/2118128237159023069",
-     "score": 2.067
+     "score": 1.951
     },
     {
      "title": "Wizkid Drops Stylish New Photos on Instagram Story",
@@ -677,7 +660,33 @@
      ],
      "time": "2026-11-06T03:54:42.000Z",
      "url": "https://x.com/i/trending/2118444758435565594",
-     "score": 1.9
+     "score": 1.731
+    },
+    {
+     "title": "1990s Photo of Zeta-Jones, Bellucci",
+     "full_title": "1990s Photo of Zeta-Jones, Bellucci, and Cruz Draws Nostalgia",
+     "summary": "",
+     "category": "Celebrity",
+     "x_category": "Entertainment",
+     "topics": [
+      "Celebrity"
+     ],
+     "time": "2026-11-06T14:45:42.000Z",
+     "url": "https://x.com/i/trending/2118616684433199510",
+     "score": 1.725
+    },
+    {
+     "title": "Ross Lynch Confirms Marriage at Heartland Premiere",
+     "full_title": "Ross Lynch Confirms Marriage at Heartland Premiere",
+     "summary": "",
+     "category": "Celebrity",
+     "x_category": "Entertainment",
+     "topics": [
+      "Celebrity"
+     ],
+     "time": "2026-11-06T15:27:29.000Z",
+     "url": "https://x.com/i/trending/2118551194750816477",
+     "score": 1.674
     }
    ]
   },
@@ -696,33 +705,33 @@
      ],
      "time": "2026-11-05T15:31:52.000Z",
      "url": "https://x.com/i/trending/2117674988023034341",
-     "score": 2.256
+     "score": 2.088
     },
     {
-     "title": "From Tops Streaming Charts After Netflix Arrival",
-     "full_title": "From Tops Streaming Charts After Netflix Arrival",
+     "title": "From Tops Netflix Charts with 1.65 Billion Viewing Minutes",
+     "full_title": "From Tops Netflix Charts with 1.65 Billion Viewing Minutes",
      "summary": "",
      "category": "Movies & Series",
      "x_category": "Entertainment",
      "topics": [
       "Movies & TV"
      ],
-     "time": "2026-11-06T04:36:08.000Z",
+     "time": "2026-11-06T15:09:02.000Z",
      "url": "https://x.com/i/trending/2118518220248207630",
-     "score": 2.474
+     "score": 2.481
     },
     {
-     "title": "KARŌSHI Trailer Drops with John Wick-Style Action...",
-     "full_title": "KARŌSHI Trailer Drops with John Wick-Style Action and Corporate Revenge",
+     "title": "New Trailer Drops for Brad Pitt's Cliff Booth Sequel...",
+     "full_title": "New Trailer Drops for Brad Pitt's Cliff Booth Sequel Directed by David Fincher",
      "summary": "",
      "category": "Movies & Series",
      "x_category": "Entertainment",
      "topics": [
       "Movies & TV"
      ],
-     "time": "2026-11-06T05:07:48.000Z",
-     "url": "https://x.com/i/trending/2118380409390293431",
-     "score": 2.482
+     "time": "2026-11-06T15:45:31.000Z",
+     "url": "https://x.com/i/trending/2118694405091610832",
+     "score": 2.491
     },
     {
      "title": "Guitarricadelafuente Shines in Queer Epic La Bola Negra",
@@ -735,33 +744,33 @@
      ],
      "time": "2026-11-05T20:40:30.000Z",
      "url": "https://x.com/i/trending/2118147925448782265",
-     "score": 2.241
+     "score": 1.823
     },
     {
      "title": "Black Doves Season 2 Launches",
-     "full_title": "Black Doves Season 2 Launches with Perfect Rotten Tomatoes Score",
+     "full_title": "Black Doves Season 2 Launches with Keira Knightley and Perfect Critic Score",
      "summary": "",
      "category": "Movies & Series",
      "x_category": "Entertainment",
      "topics": [
       "Movies & TV"
      ],
-     "time": "2026-11-06T00:30:22.000Z",
+     "time": "2026-11-06T13:15:21.000Z",
      "url": "https://x.com/i/trending/2118039600660980193",
-     "score": 2.343
+     "score": 2.387
     },
     {
-     "title": "Mike Leigh's 'Tender Loving Care' Trailer Reveals Likely...",
-     "full_title": "Mike Leigh's 'Tender Loving Care' Trailer Reveals Likely Final Film",
+     "title": "Mr. Bhaarath Trailer Drops for December 11 Comedy Debut",
+     "full_title": "Mr. Bhaarath Trailer Drops for December 11 Comedy Debut",
      "summary": "",
      "category": "Movies & Series",
      "x_category": "Entertainment",
      "topics": [
       "Movies & TV"
      ],
-     "time": "2026-11-05T17:57:07.000Z",
-     "url": "https://x.com/i/trending/2118351758749499807",
-     "score": 2.234
+     "time": "2026-11-06T14:35:52.000Z",
+     "url": "https://x.com/i/trending/2118386777358503996",
+     "score": 2.285
     }
    ]
   }
