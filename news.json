@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-11-07T09:03:30Z",
- "generated_at_local": "2026-11-07 10:03",
+ "generated_at": "2026-11-08T09:12:04Z",
+ "generated_at_local": "2026-11-08 10:12",
  "timezone": "Europe/Warsaw",
  "source": "X News stories (summaries of posts on X; may evolve, verify before relying on them)",
  "categories": [
@@ -8,6 +8,33 @@
    "id": "grokbot",
    "title": "Grok Bot",
    "stories": [
+    {
+     "title": "Over 300 Advanced Grok Bots Set for Public Release",
+     "full_title": "Over 300 Advanced Grok Bots Set for Public Release",
+     "summary": "",
+     "category": "Grok Bot",
+     "x_category": "Other",
+     "topics": [
+      "Technology",
+      "AI"
+     ],
+     "time": "2026-11-07T10:01:49.000Z",
+     "url": "https://x.com/i/trending/2119006214918906040",
+     "score": 5.046
+    },
+    {
+     "title": "Grok Bot Subscribers Hit Unexpected Usage Limits Early",
+     "full_title": "Grok Bot Subscribers Hit Unexpected Usage Limits Early",
+     "summary": "",
+     "category": "Grok Bot",
+     "x_category": "News",
+     "topics": [
+      "Technology"
+     ],
+     "time": "2026-11-08T08:02:31.000Z",
+     "url": "https://x.com/i/trending/2119338735221571873",
+     "score": 4.669
+    },
     {
      "title": "Grok Bot Users Build Personal AI Teams for Everyday Tasks",
      "full_title": "Grok Bot Users Build Personal AI Teams for Everyday Tasks",
@@ -20,46 +47,20 @@
      ],
      "time": "2026-11-05T13:50:16.000Z",
      "url": "https://x.com/i/trending/2118338569156677670",
-     "score": 4.872
+     "score": 4.551
     },
     {
-     "title": "Grok Bot Users Hit by Faster Usage Limits Amid Cost Concerns",
-     "full_title": "Grok Bot Users Hit by Faster Usage Limits Amid Cost Concerns",
+     "title": "Grok Bot Agent Teams Turn Small Crypto Bets into Big...",
+     "full_title": "Grok Bot Agent Teams Turn Small Crypto Bets into Big Overnight Gains",
      "summary": "",
      "category": "Grok Bot",
      "x_category": "Other",
      "topics": [
       "Technology"
      ],
-     "time": "2026-11-07T08:30:14.000Z",
+     "time": "2026-11-08T05:11:07.000Z",
      "url": "https://x.com/i/trending/2118628307071578171",
-     "score": 4.609
-    },
-    {
-     "title": "Grok Bot's Pages Turn Chats into Interactive Documents",
-     "full_title": "Grok Bot's Pages Turn Chats into Interactive Documents",
-     "summary": "",
-     "category": "Grok Bot",
-     "x_category": "News",
-     "topics": [
-      "Technology"
-     ],
-     "time": "2026-11-04T21:00:15.000Z",
-     "url": "https://x.com/i/trending/2118083610074882532",
-     "score": 4.529
-    },
-    {
-     "title": "Grok Bot Launches Simplified Shopping Tools",
-     "full_title": "Grok Bot Launches Simplified Shopping Tools with Order Tracking",
-     "summary": "",
-     "category": "Grok Bot",
-     "x_category": "News",
-     "topics": [
-      "Technology"
-     ],
-     "time": "2026-11-04T19:45:58.000Z",
-     "url": "https://x.com/i/trending/2117985850856219024",
-     "score": 4.334
+     "score": 3.84
     },
     {
      "title": "Grok Names Musk in Epstein Island Query, Response Vanishes",
@@ -72,7 +73,7 @@
      ],
      "time": "2026-11-06T12:56:48.000Z",
      "url": "https://x.com/i/trending/2118454918914920574",
-     "score": 3.188
+     "score": 2.929
     },
     {
      "title": "Nicki Minaj Praises Grok, Draws Family Legal Backlash",
@@ -86,7 +87,7 @@
      ],
      "time": "2026-11-06T02:15:27.000Z",
      "url": "https://x.com/i/trending/2118525880846746014",
-     "score": 1.604
+     "score": 1.532
     }
    ]
   },
@@ -95,48 +96,36 @@
    "title": "AI",
    "stories": [
     {
-     "title": "NVIDIA Offers Free Access to Kimi K3.1 Pro and Top AI Models",
-     "full_title": "NVIDIA Offers Free Access to Kimi K3.1 Pro and Top AI Models",
-     "summary": "",
-     "category": "AI",
-     "x_category": "News",
-     "topics": [
-      "Technology",
-      "AI"
-     ],
-     "time": "2026-11-06T17:26:56.000Z",
-     "url": "https://x.com/i/trending/2118755132603060694",
-     "score": 4.352
-    },
-    {
      "title": "OpenAI Releases GPT-6 Cyber for Cybersecurity Research",
      "full_title": "OpenAI Releases GPT-6 Cyber for Cybersecurity Research",
      "summary": "",
      "category": "AI",
      "x_category": "News",
      "topics": [
-      "Technology"
+      "Technology",
+      "AI"
      ],
      "time": "2026-11-07T08:48:00.000Z",
      "url": "https://x.com/i/trending/2118842019439092085",
-     "score": 4.171
+     "score": 4.518
     },
     {
-     "title": "OpenAI Builds Analytics Tool for Business Visibility",
-     "full_title": "OpenAI Builds Analytics Tool for Business Visibility in ChatGPT",
+     "title": "Developers Report Sharp Drop",
+     "full_title": "Developers Report Sharp Drop in Claude Opus 5.5 Coding Performance",
      "summary": "",
      "category": "AI",
-     "x_category": "News",
+     "x_category": "Other",
      "topics": [
-      "Technology"
+      "Technology",
+      "AI"
      ],
-     "time": "2026-11-07T00:59:51.000Z",
-     "url": "https://x.com/i/trending/2118755136361152559",
-     "score": 3.391
+     "time": "2026-11-07T13:33:11.000Z",
+     "url": "https://x.com/i/trending/2118878938697286142",
+     "score": 4.472
     },
     {
-     "title": "OpenAI and Anthropic Delay Next AI Models in Standoff",
-     "full_title": "OpenAI and Anthropic Delay Next AI Models in Standoff",
+     "title": "Thinking Machines Lab Unveils High-Performing Inkling 2...",
+     "full_title": "Thinking Machines Lab Unveils High-Performing Inkling 2 Small Model",
      "summary": "",
      "category": "AI",
      "x_category": "News",
@@ -144,27 +133,27 @@
       "Technology",
       "AI"
      ],
-     "time": "2026-11-07T01:47:04.000Z",
-     "url": "https://x.com/i/trending/2118880983525057013",
-     "score": 3.216
-    },
-    {
-     "title": "Thinking Machines Unveils Inkling 2 Small",
-     "full_title": "Thinking Machines Unveils Inkling 2 Small, Tops AI Benchmarks with Fewer Parameters",
-     "summary": "",
-     "category": "AI",
-     "x_category": "News",
-     "topics": [
-      "Technology",
-      "AI"
-     ],
-     "time": "2026-11-07T07:57:34.000Z",
+     "time": "2026-11-07T22:06:01.000Z",
      "url": "https://x.com/i/trending/2118493638007062804",
-     "score": 3.069
+     "score": 3.99
     },
     {
-     "title": "Anthropic Links Claude Duet App to AI Coding Cloud Sessions",
-     "full_title": "Anthropic Links Claude Duet App to AI Coding Cloud Sessions",
+     "title": "OpenAI Builds Business Analytics Tool for ChatGPT Visibility",
+     "full_title": "OpenAI Builds Business Analytics Tool for ChatGPT Visibility",
+     "summary": "",
+     "category": "AI",
+     "x_category": "News",
+     "topics": [
+      "Technology",
+      "Business & Finance"
+     ],
+     "time": "2026-11-07T17:59:58.000Z",
+     "url": "https://x.com/i/trending/2118755136361152559",
+     "score": 3.647
+    },
+    {
+     "title": "Google Launches Gemini Omni 1.2 Flash",
+     "full_title": "Google Launches Gemini Omni 1.2 Flash for Longer AI Videos and Easy Edits",
      "summary": "",
      "category": "AI",
      "x_category": "News",
@@ -172,9 +161,23 @@
       "Technology",
       "AI"
      ],
-     "time": "2026-11-07T08:36:33.000Z",
-     "url": "https://x.com/i/trending/2118812904648794590",
-     "score": 2.992
+     "time": "2026-11-07T22:19:32.000Z",
+     "url": "https://x.com/i/trending/2118992532881145895",
+     "score": 3.469
+    },
+    {
+     "title": "Ant Ling Unveils Ling-3.2-flash",
+     "full_title": "Ant Ling Unveils Ling-3.2-flash for Full Professional Workflows",
+     "summary": "",
+     "category": "AI",
+     "x_category": "News",
+     "topics": [
+      "Technology",
+      "AI"
+     ],
+     "time": "2026-11-07T22:05:46.000Z",
+     "url": "https://x.com/i/trending/2119188262753321250",
+     "score": 3.09
     }
    ]
   },
@@ -191,9 +194,36 @@
      "topics": [],
      "time": "2026-11-05T05:36:53Z",
      "url": "https://github.com/omacom/omarchy/releases/tag/v4.5.0",
-     "score": 2.316,
+     "score": 2.23,
      "source": "omacom/omarchy",
      "via": "GitHub"
+    },
+    {
+     "title": "Developer Theo Endorses Omarchy for AI Agent Workflows",
+     "full_title": "Developer Theo Endorses Omarchy for AI Agent Workflows",
+     "summary": "",
+     "category": "Omarchy",
+     "x_category": "Other",
+     "topics": [
+      "Technology",
+      "Software Development"
+     ],
+     "time": "2026-11-08T00:47:35.000Z",
+     "url": "https://x.com/i/trending/2119190737988289001",
+     "score": 1.845
+    },
+    {
+     "title": "Making the MacBook Neo wake up",
+     "full_title": "Making the MacBook Neo wake up with Omarchy is something else",
+     "summary": "",
+     "category": "Omarchy",
+     "x_category": "Post",
+     "topics": [],
+     "time": "2026-11-07T08:30:10.000Z",
+     "url": "https://x.com/dhh/status/2118984342298911185",
+     "score": 3.374,
+     "source": "@dhh",
+     "via": "X"
     },
     {
      "title": "Omarchy Adds Superwhisper Voice Dictation as Default Feature",
@@ -206,7 +236,7 @@
      ],
      "time": "2026-11-06T22:37:27.000Z",
      "url": "https://x.com/i/trending/2118833478556930285",
-     "score": 1.9
+     "score": 1.814
     },
     {
      "title": "WARNING: Repeated exposure to Omarchy may make...",
@@ -217,7 +247,7 @@
      "topics": [],
      "time": "2026-11-06T19:50:13.000Z",
      "url": "https://x.com/omarchy/status/2118793094036369803",
-     "score": 2.964,
+     "score": 2.735,
      "source": "@omarchy",
      "via": "X"
     },
@@ -230,33 +260,7 @@
      "topics": [],
      "time": "2026-11-06T17:56:28.000Z",
      "url": "https://x.com/dhh/status/2118764469270802447",
-     "score": 3.235,
-     "source": "@dhh",
-     "via": "X"
-    },
-    {
-     "title": "Omarchy is a great fit even for former Apple employees",
-     "full_title": "Omarchy is a great fit even for former Apple employees",
-     "summary": "",
-     "category": "Omarchy",
-     "x_category": "Post",
-     "topics": [],
-     "time": "2026-11-06T19:44:19.000Z",
-     "url": "https://x.com/omarchy/status/2118791609999315289",
-     "score": 2.761,
-     "source": "@omarchy",
-     "via": "X"
-    },
-    {
-     "title": "Omarchy just got enormously, awesomely, fantastically better",
-     "full_title": "Omarchy just got enormously, awesomely, fantastically better",
-     "summary": "",
-     "category": "Omarchy",
-     "x_category": "Post",
-     "topics": [],
-     "time": "2026-11-05T05:43:25.000Z",
-     "url": "https://x.com/dhh/status/2118217599763018123",
-     "score": 3.006,
+     "score": 3.191,
      "source": "@dhh",
      "via": "X"
     }
@@ -267,88 +271,85 @@
    "title": "Technology",
    "stories": [
     {
-     "title": "Microsoft Ends Oracle AI Cloud Rental Deal",
-     "full_title": "Microsoft Ends Oracle AI Cloud Rental Deal Over Outdated Chips",
+     "title": "Elon Musk Reaffirms Tesla's Open Patent Policy",
+     "full_title": "Elon Musk Reaffirms Tesla's Open Patent Policy for EV Innovation",
+     "summary": "",
+     "category": "Technology",
+     "x_category": "Other",
+     "topics": [
+      "Business & Finance",
+      "Technology"
+     ],
+     "time": "2026-11-07T18:11:43.000Z",
+     "url": "https://x.com/i/trending/2119128839423209810",
+     "score": 2.187
+    },
+    {
+     "title": "Texas Democrats Signal End to Special Treatment",
+     "full_title": "Texas Democrats Signal End to Special Treatment for SpaceX and Tesla",
      "summary": "",
      "category": "Technology",
      "x_category": "News",
      "topics": [
-      "Technology"
+      "Business & Finance"
      ],
-     "time": "2026-11-07T09:00:22.000Z",
-     "url": "https://x.com/i/trending/2118764671066919161",
-     "score": 2.312
+     "time": "2026-11-08T03:26:48.000Z",
+     "url": "https://x.com/i/trending/2119268881210515790",
+     "score": 2.154
     },
     {
-     "title": "Video Reveals Sand-to-Microchip Marvel",
-     "full_title": "Video Reveals Sand-to-Microchip Marvel",
+     "title": "Developers Pick MacBook Over Windows in Latest Poll",
+     "full_title": "Developers Pick MacBook Over Windows in Latest Poll",
      "summary": "",
      "category": "Technology",
      "x_category": "Other",
      "topics": [
       "Technology"
      ],
-     "time": "2026-11-06T22:03:53.000Z",
-     "url": "https://x.com/i/trending/2118746503866937380",
-     "score": 2.254
+     "time": "2026-11-07T09:24:39.000Z",
+     "url": "https://x.com/i/trending/2118997218153713766",
+     "score": 2.103
     },
     {
-     "title": "Apple Launches First Touchscreen MacBook Pro",
-     "full_title": "Apple Launches First Touchscreen MacBook Pro with PROLED XDR Display",
+     "title": "Vibe Coding Divides Builders on Speed vs. Reliability",
+     "full_title": "Vibe Coding Divides Builders on Speed vs. Reliability",
      "summary": "",
      "category": "Technology",
      "x_category": "Other",
      "topics": [
-      "Technology"
-     ],
-     "time": "2026-11-06T09:57:21.000Z",
-     "url": "https://x.com/i/trending/2118642932836343828",
-     "score": 2.115
-    },
-    {
-     "title": "Deutsche Telekom CEO: SpaceX Needs $200 Billion",
-     "full_title": "Deutsche Telekom CEO: SpaceX Needs $200 Billion for U.S. Wireless Network",
-     "summary": "",
-     "category": "Technology",
-     "x_category": "News",
-     "topics": [
-      "Business & Finance",
-      "Technology",
-      "Space"
-     ],
-     "time": "2026-11-06T16:30:02.000Z",
-     "url": "https://x.com/i/trending/2118696357905272883",
-     "score": 1.974
-    },
-    {
-     "title": "Robot Lays Floor Tiles with Precision in Viral Video",
-     "full_title": "Robot Lays Floor Tiles with Precision in Viral Video",
-     "summary": "",
-     "category": "Technology",
-     "x_category": "News",
-     "topics": [
-      "Technology",
-      "Robotics"
-     ],
-     "time": "2026-11-07T07:27:30.000Z",
-     "url": "https://x.com/i/trending/2118806661804822760",
-     "score": 1.973
-    },
-    {
-     "title": "Wall Street's $2.3 Trillion Tech Sell-Off",
-     "full_title": "Wall Street's $2.3 Trillion Tech Sell-Off After Democratic Midterm Wins",
-     "summary": "",
-     "category": "Technology",
-     "x_category": "News",
-     "topics": [
-      "Business & Finance",
-      "Stocks",
       "Technology",
       "AI"
      ],
-     "time": "2026-11-07T06:48:30.000Z",
-     "url": "https://x.com/i/trending/2118478229526970616",
-     "score": 1.9
+     "time": "2026-11-08T04:39:55.000Z",
+     "url": "https://x.com/i/trending/2119287810704523419",
+     "score": 1.737
+    },
+    {
+     "title": "Users Demand Personal AI Assistants on Company Websites",
+     "full_title": "Users Demand Personal AI Assistants on Company Websites",
+     "summary": "",
+     "category": "Technology",
+     "x_category": "Other",
+     "topics": [
+      "Technology",
+      "AI"
+     ],
+     "time": "2026-11-08T08:44:31.000Z",
+     "url": "https://x.com/i/trending/2119349427769090559",
+     "score": 1.68
+    },
+    {
+     "title": "Google Executive Donald Harrison Resigns from SpaceX Board",
+     "full_title": "Google Executive Donald Harrison Resigns from SpaceX Board After 11 Years",
+     "summary": "",
+     "category": "Technology",
+     "x_category": "News",
+     "topics": [
+      "Business & Finance"
+     ],
+     "time": "2026-11-07T08:17:19.000Z",
+     "url": "https://x.com/i/trending/2118867175901704283",
+     "score": 1.647
     }
    ]
   },
@@ -357,84 +358,82 @@
    "title": "Politics",
    "stories": [
     {
-     "title": "Kallas Rejects Putin Veto on European Security in Clash",
-     "full_title": "Kallas Rejects Putin Veto on European Security in Clash with U.S. Plan",
+     "title": "European Leaders Reject U.S. Plan",
+     "full_title": "European Leaders Reject U.S. Plan for Russia-Involved Security Overhaul",
      "summary": "",
      "category": "Politics",
      "x_category": "News",
      "topics": [
       "Politics"
      ],
-     "time": "2026-11-07T08:42:06.000Z",
-     "url": "https://x.com/i/trending/2118986253991629094",
-     "score": 5.907
-    },
-    {
-     "title": "Belgium's King Philippe Rejects De Wever's Resignation",
-     "full_title": "Belgium's King Philippe Rejects De Wever's Resignation, Orders Budget Talks to Resume",
-     "summary": "",
-     "category": "Politics",
-     "x_category": "News",
-     "topics": [
-      "Politics"
-     ],
-     "time": "2026-11-06T15:26:20.000Z",
-     "url": "https://x.com/i/trending/2118692102905442337",
-     "score": 1.981
-    },
-    {
-     "title": "European Leaders Reject Trump's Russia Security Plan",
-     "full_title": "European Leaders Reject Trump's Russia Security Plan",
-     "summary": "",
-     "category": "Politics",
-     "x_category": "News",
-     "topics": [
-      "Politics"
-     ],
-     "time": "2026-11-07T08:30:01.000Z",
+     "time": "2026-11-07T17:48:42.000Z",
      "url": "https://x.com/i/trending/2118674123182444840",
-     "score": 3.516
+     "score": 4.668
     },
     {
-     "title": "Zelenskyy Warns of Russian Strikes on Ukraine's Energy...",
-     "full_title": "Zelenskyy Warns of Russian Strikes on Ukraine's Energy and Bridges",
-     "summary": "",
-     "category": "Politics",
-     "x_category": "News",
-     "topics": [
-      "News",
-      "Politics"
-     ],
-     "time": "2026-11-07T01:18:44.000Z",
-     "url": "https://x.com/i/trending/2118803630971146387",
-     "score": 2.371
-    },
-    {
-     "title": "Iran Threatens Missile Strikes on European Bases if U.S....",
-     "full_title": "Iran Threatens Missile Strikes on European Bases if U.S. Resumes Attacks",
-     "summary": "",
-     "category": "Politics",
-     "x_category": "News",
-     "topics": [
-      "News",
-      "Politics"
-     ],
-     "time": "2026-11-07T07:14:18.000Z",
-     "url": "https://x.com/i/trending/2118636373770990029",
-     "score": 2.47
-    },
-    {
-     "title": "Trump Designates Oval Office and Cabinet Room",
-     "full_title": "Trump Designates Oval Office and Cabinet Room as National Monuments",
+     "title": "Photos of Ed Miliband Snorkeling",
+     "full_title": "Photos of Ed Miliband Snorkeling in Antigua Draw Hypocrisy Charges",
      "summary": "",
      "category": "Politics",
      "x_category": "News",
      "topics": [
       "Politics"
      ],
-     "time": "2026-11-07T07:45:25.000Z",
+     "time": "2026-11-07T20:54:23.000Z",
+     "url": "https://x.com/i/trending/2119036970001129789",
+     "score": 2.595
+    },
+    {
+     "title": "NATO's Rutte Predicts Compromise in Ukraine Peace Deal",
+     "full_title": "NATO's Rutte Predicts Compromise in Ukraine Peace Deal",
+     "summary": "",
+     "category": "Politics",
+     "x_category": "News",
+     "topics": [
+      "Politics"
+     ],
+     "time": "2026-11-07T17:38:22.000Z",
+     "url": "https://x.com/i/trending/2118717264501342603",
+     "score": 3.328
+    },
+    {
+     "title": "Russia Hits Kyiv Energy Grid and Bridge",
+     "full_title": "Russia Hits Kyiv Energy Grid and Bridge in Major Overnight Attack",
+     "summary": "",
+     "category": "Politics",
+     "x_category": "News",
+     "topics": [
+      "News"
+     ],
+     "time": "2026-11-08T06:52:55.000Z",
+     "url": "https://x.com/i/trending/2118849874900685188",
+     "score": 1.836
+    },
+    {
+     "title": "Merz: Holocaust-Denying Muslim Immigrants Must Leave Germany",
+     "full_title": "Merz: Holocaust-Denying Muslim Immigrants Must Leave Germany",
+     "summary": "",
+     "category": "Politics",
+     "x_category": "News",
+     "topics": [
+      "Politics"
+     ],
+     "time": "2026-11-08T09:08:08.000Z",
+     "url": "https://x.com/i/trending/2119097905101373692",
+     "score": 2.499
+    },
+    {
+     "title": "Trump Designates Oval Office",
+     "full_title": "Trump Designates Oval Office as National Monument to Block Changes",
+     "summary": "",
+     "category": "Politics",
+     "x_category": "News",
+     "topics": [
+      "Politics"
+     ],
+     "time": "2026-11-07T23:05:43.000Z",
      "url": "https://x.com/i/trending/2118540140092227717",
-     "score": 2.228
+     "score": 2.144
     }
    ]
   },
@@ -454,20 +453,20 @@
      ],
      "time": "2026-11-06T22:59:33.000Z",
      "url": "https://x.com/i/trending/2118839119237521803",
-     "score": 2.354
+     "score": 2.152
     },
     {
-     "title": "Book Lovers Share Weekend Reads in Friday Tradition",
-     "full_title": "Book Lovers Share Weekend Reads in Friday Tradition",
+     "title": "Readers Debate Meandering Old Books vs Tight Modern Novels",
+     "full_title": "Readers Debate Meandering Old Books vs Tight Modern Novels",
      "summary": "",
      "category": "Culture",
      "x_category": "Other",
      "topics": [
-      "Books"
+      "Art"
      ],
-     "time": "2026-11-06T19:11:25.000Z",
-     "url": "https://x.com/i/trending/2118780731744768038",
-     "score": 2.322
+     "time": "2026-11-07T19:28:08.000Z",
+     "url": "https://x.com/i/trending/2119148188057682229",
+     "score": 2.386
     },
     {
      "title": "Coi Leray Announces Third Album MULTI for February 2027",
@@ -480,46 +479,46 @@
      ],
      "time": "2026-11-06T22:37:15.000Z",
      "url": "https://x.com/i/trending/2118833477000872434",
-     "score": 2.35
+     "score": 2.212
     },
     {
-     "title": "Woman's Tearful Reaction to Kiki Smith's 'Tale'...",
-     "full_title": "Woman's Tearful Reaction to Kiki Smith's 'Tale' Sculpture Divides Art World",
-     "summary": "",
-     "category": "Culture",
-     "x_category": "Other",
-     "topics": [
-      "Art"
-     ],
-     "time": "2026-11-07T03:55:06.000Z",
-     "url": "https://x.com/i/trending/2118535519739277522",
-     "score": 1.832
-    },
-    {
-     "title": "Readers Confess Most Boring Books They've Endured",
-     "full_title": "Readers Confess Most Boring Books They've Endured",
-     "summary": "",
-     "category": "Culture",
-     "x_category": "Other",
-     "topics": [
-      "Books"
-     ],
-     "time": "2026-11-06T00:31:19.000Z",
-     "url": "https://x.com/i/trending/2118499612944388414",
-     "score": 2.104
-    },
-    {
-     "title": "Mark Lee Releases 'Happiest' Ahead of 'WINDMILL' Album Debut",
-     "full_title": "Mark Lee Releases 'Happiest' Ahead of 'WINDMILL' Album Debut",
+     "title": "Content Creator Tears Up Over 'Art Terrorism'",
+     "full_title": "Content Creator Tears Up Over 'Art Terrorism' at Kiki Smith Exhibit",
      "summary": "",
      "category": "Culture",
      "x_category": "Entertainment",
      "topics": [
-      "Music"
+      "Art"
      ],
-     "time": "2026-11-06T04:10:42.000Z",
-     "url": "https://x.com/i/trending/2117849286964838671",
-     "score": 2.134
+     "time": "2026-11-07T21:03:47.000Z",
+     "url": "https://x.com/i/trending/2118535519739277522",
+     "score": 1.711
+    },
+    {
+     "title": "Girl's Tearful Video Prompts Emotional Book Recommendations",
+     "full_title": "Girl's Tearful Video Prompts Emotional Book Recommendations",
+     "summary": "",
+     "category": "Culture",
+     "x_category": "Entertainment",
+     "topics": [
+      "Books"
+     ],
+     "time": "2026-11-07T16:18:22.000Z",
+     "url": "https://x.com/i/trending/2119100394886287598",
+     "score": 2.172
+    },
+    {
+     "title": "Lil Baby Drops Fifth Album FRESH, Dividing Fans",
+     "full_title": "Lil Baby Drops Fifth Album FRESH, Dividing Fans with Hits and Disses",
+     "summary": "",
+     "category": "Culture",
+     "x_category": "Entertainment",
+     "topics": [
+      "Hip Hop"
+     ],
+     "time": "2026-11-07T12:22:03.000Z",
+     "url": "https://x.com/i/trending/2118559519261528247",
+     "score": 2.201
     }
    ]
   },
@@ -528,82 +527,82 @@
    "title": "Sport",
    "stories": [
     {
-     "title": "Manchester United Eye Villa Win After Dramatic Roma Comeback",
-     "full_title": "Manchester United Eye Villa Win After Dramatic Roma Comeback",
-     "summary": "",
-     "category": "Sport",
-     "x_category": "Sports",
-     "topics": [
-      "UEFA Champions League"
-     ],
-     "time": "2026-11-06T22:16:17.000Z",
-     "url": "https://x.com/i/trending/2118827865475338600",
-     "score": 2.32
-    },
-    {
-     "title": "Toto Wolff Faces Backlash Over MotoGP Safety Criticism",
-     "full_title": "Toto Wolff Faces Backlash Over MotoGP Safety Criticism",
-     "summary": "",
-     "category": "Sport",
-     "x_category": "Sports",
-     "topics": [
-      "Formula 1"
-     ],
-     "time": "2026-11-07T04:30:28.000Z",
-     "url": "https://x.com/i/trending/2118794397227876826",
-     "score": 1.887
-    },
-    {
-     "title": "2026 Nitto ATP Finals Field Locked with Zverev",
-     "full_title": "2026 Nitto ATP Finals Field Locked with Zverev, Alcaraz Leading",
-     "summary": "",
-     "category": "Sport",
-     "x_category": "Sports",
-     "topics": [
-      "Tennis"
-     ],
-     "time": "2026-11-07T03:00:32.000Z",
-     "url": "https://x.com/i/trending/2118900014210482197",
-     "score": 2.399
-    },
-    {
-     "title": "Bears Coach Ben Johnson Claps Back at Reporter",
-     "full_title": "Bears Coach Ben Johnson Claps Back at Reporter Over Win Dominance",
-     "summary": "",
-     "category": "Sport",
-     "x_category": "Sports",
-     "topics": [
-      "American Football"
-     ],
-     "time": "2026-11-06T20:27:15.000Z",
-     "url": "https://x.com/i/trending/2118758313286656235",
-     "score": 2.04
-    },
-    {
-     "title": "United's Dramatic Comeback Sinks Roma 3-2",
-     "full_title": "United's Dramatic Comeback Sinks Roma 3-2 in Champions League Thriller",
+     "title": "Liverpool Eye Bounce-Back Win",
+     "full_title": "Liverpool Eye Bounce-Back Win at Crystal Palace on Remembrance Sunday",
      "summary": "",
      "category": "Sport",
      "x_category": "Sports",
      "topics": [
       "Premier League"
      ],
-     "time": "2026-11-06T13:23:09.000Z",
-     "url": "https://x.com/i/trending/2117993235708891139",
-     "score": 2.11
+     "time": "2026-11-08T07:31:08.000Z",
+     "url": "https://x.com/i/trending/2119330778081612065",
+     "score": 2.472
     },
     {
-     "title": "George Russell Charms Fans at São Paulo Grand Prix",
-     "full_title": "George Russell Charms Fans at São Paulo Grand Prix",
+     "title": "Lando Norris Claims Pole in Sao Paulo Rain Chaos",
+     "full_title": "Lando Norris Claims Pole in Sao Paulo Rain Chaos",
      "summary": "",
      "category": "Sport",
      "x_category": "Sports",
      "topics": [
       "Formula 1"
      ],
-     "time": "2026-11-07T01:53:35.000Z",
-     "url": "https://x.com/i/trending/2118883124205482309",
-     "score": 1.881
+     "time": "2026-11-08T08:39:13.000Z",
+     "url": "https://x.com/i/trending/2119006212406509852",
+     "score": 2.178
+    },
+    {
+     "title": "Elena Rybakina Withdraws from WTA Finals Due to Illness",
+     "full_title": "Elena Rybakina Withdraws from WTA Finals Due to Illness",
+     "summary": "",
+     "category": "Sport",
+     "x_category": "Sports",
+     "topics": [
+      "Tennis"
+     ],
+     "time": "2026-11-08T07:56:10.000Z",
+     "url": "https://x.com/i/trending/2119153430921142335",
+     "score": 2.416
+    },
+    {
+     "title": "NBA Flexes Hornets-Lakers Game to National TV on NBC...",
+     "full_title": "NBA Flexes Hornets-Lakers Game to National TV on NBC and Peacock",
+     "summary": "",
+     "category": "Sport",
+     "x_category": "Sports",
+     "topics": [
+      "NBA"
+     ],
+     "time": "2026-11-08T05:02:54.000Z",
+     "url": "https://x.com/i/trending/2119257441850245276",
+     "score": 1.868
+    },
+    {
+     "title": "Arsenal Top Premier League Amid Style Debate",
+     "full_title": "Arsenal Top Premier League Amid Style Debate After Narrow Wins",
+     "summary": "",
+     "category": "Sport",
+     "x_category": "Sports",
+     "topics": [
+      "Premier League"
+     ],
+     "time": "2026-11-08T05:44:23.000Z",
+     "url": "https://x.com/i/trending/2119303765320974502",
+     "score": 2.38
+    },
+    {
+     "title": "Fans Debate Lando Norris's Praise",
+     "full_title": "Fans Debate Lando Norris's Praise for New F1 Champion Kimi Antonelli",
+     "summary": "",
+     "category": "Sport",
+     "x_category": "Sports",
+     "topics": [
+      "Formula 1"
+     ],
+     "time": "2026-11-08T07:00:40.000Z",
+     "url": "https://x.com/i/trending/2119322808937537813",
+     "score": 1.838
     }
    ]
   },
@@ -612,48 +611,47 @@
    "title": "Celebrity",
    "stories": [
     {
-     "title": "Genevieve Nnaji Stuns in Oríré Gown at CANEX WKND 2026",
-     "full_title": "Genevieve Nnaji Stuns in Oríré Gown at CANEX WKND 2026",
-     "summary": "",
-     "category": "Celebrity",
-     "x_category": "Entertainment",
-     "topics": [
-      "Celebrity",
-      "Fashion"
-     ],
-     "time": "2026-11-06T21:18:20.000Z",
-     "url": "https://x.com/i/trending/2118712112641872374",
-     "score": 3.017
-    },
-    {
-     "title": "Julianne Moore Covers Vogue Adria's November 2026 Issue",
-     "full_title": "Julianne Moore Covers Vogue Adria's November 2026 Issue",
+     "title": "aespa's Ningning Makes History at LACMA Art+Film Gala",
+     "full_title": "aespa's Ningning Makes History at LACMA Art+Film Gala",
      "summary": "",
      "category": "Celebrity",
      "x_category": "Entertainment",
      "topics": [
       "Celebrity"
      ],
-     "time": "2026-11-06T20:14:29.000Z",
-     "url": "https://x.com/i/trending/2118797435543953640",
-     "score": 2.124
+     "time": "2026-11-08T05:58:03.000Z",
+     "url": "https://x.com/i/trending/2119237520491757831",
+     "score": 2.783
     },
     {
-     "title": "Dove Cameron Releases Debut Album Final Girl",
-     "full_title": "Dove Cameron Releases Debut Album Final Girl Amid Tour Kickoff",
+     "title": "Anushka Shetty Celebrates 45th Birthday with Fan Tributes",
+     "full_title": "Anushka Shetty Celebrates 45th Birthday with Fan Tributes",
      "summary": "",
      "category": "Celebrity",
      "x_category": "Entertainment",
      "topics": [
-      "Music"
+      "Celebrity"
      ],
-     "time": "2026-11-07T03:16:52.000Z",
-     "url": "https://x.com/i/trending/2118904090109579470",
-     "score": 1.904
+     "time": "2026-11-07T23:16:22.000Z",
+     "url": "https://x.com/i/trending/2118704996409573704",
+     "score": 1.959
     },
     {
-     "title": "Joni Mitchell Turns 83 Amid Tributes to Her Legacy",
-     "full_title": "Joni Mitchell Turns 83 Amid Tributes to Her Legacy",
+     "title": "Monica Lewinsky Shines at LACMA Gala Amid Mixed Reactions",
+     "full_title": "Monica Lewinsky Shines at LACMA Gala Amid Mixed Reactions",
+     "summary": "",
+     "category": "Celebrity",
+     "x_category": "Entertainment",
+     "topics": [
+      "Celebrity"
+     ],
+     "time": "2026-11-08T08:15:22.000Z",
+     "url": "https://x.com/i/trending/2119341689638932646",
+     "score": 1.947
+    },
+    {
+     "title": "Lorde Turns 30 with Fan Tributes and Career Reflections",
+     "full_title": "Lorde Turns 30 with Fan Tributes and Career Reflections",
      "summary": "",
      "category": "Celebrity",
      "x_category": "Entertainment",
@@ -661,35 +659,35 @@
       "Music",
       "Celebrity"
      ],
-     "time": "2026-11-07T08:48:01.000Z",
-     "url": "https://x.com/i/trending/2118954257043075336",
-     "score": 1.871
+     "time": "2026-11-08T05:51:44.000Z",
+     "url": "https://x.com/i/trending/2118955955878498376",
+     "score": 1.944
     },
     {
-     "title": "Doja Cat Struts Through Spirit Tunnel on Jennifer Hudson...",
-     "full_title": "Doja Cat Struts Through Spirit Tunnel on Jennifer Hudson Show",
+     "title": "Tinashe Rocks Sold-Out Hollywood Palladium Show",
+     "full_title": "Tinashe Rocks Sold-Out Hollywood Palladium Show with Uplift Merch",
+     "summary": "",
+     "category": "Celebrity",
+     "x_category": "Entertainment",
+     "topics": [
+      "Concerts"
+     ],
+     "time": "2026-11-08T06:45:59.000Z",
+     "url": "https://x.com/i/trending/2119190736503464070",
+     "score": 1.772
+    },
+    {
+     "title": "Wizkid Spotted Enjoying Casual Night Out in Los Angeles",
+     "full_title": "Wizkid Spotted Enjoying Casual Night Out in Los Angeles",
      "summary": "",
      "category": "Celebrity",
      "x_category": "Entertainment",
      "topics": [
       "Celebrity"
      ],
-     "time": "2026-11-07T02:28:50.000Z",
-     "url": "https://x.com/i/trending/2118598560035786853",
-     "score": 1.765
-    },
-    {
-     "title": "Romesh Ranganathan Faces Backlash",
-     "full_title": "Romesh Ranganathan Faces Backlash Over Refugee Charity Donation from Celebrity Traitors",
-     "summary": "",
-     "category": "Celebrity",
-     "x_category": "Entertainment",
-     "topics": [
-      "Celebrity"
-     ],
-     "time": "2026-11-06T14:55:22.000Z",
-     "url": "https://x.com/i/trending/2118682937529086097",
-     "score": 1.76
+     "time": "2026-11-08T02:40:41.000Z",
+     "url": "https://x.com/i/trending/2119161728076239149",
+     "score": 1.641
     }
    ]
   },
@@ -698,82 +696,82 @@
    "title": "Movies & Series",
    "stories": [
     {
-     "title": "Taika Waititi's 'Klara and the Sun' Struggles",
-     "full_title": "Taika Waititi's 'Klara and the Sun' Struggles with $1.2M Box Office",
+     "title": "Clayface Hits $100 Million at Global Box Office",
+     "full_title": "Clayface Hits $100 Million at Global Box Office",
      "summary": "",
      "category": "Movies & Series",
      "x_category": "Entertainment",
      "topics": [
       "Movies & TV"
      ],
-     "time": "2026-11-07T06:21:26.000Z",
+     "time": "2026-11-08T06:38:59.000Z",
+     "url": "https://x.com/i/trending/2118915777919410510",
+     "score": 2.457
+    },
+    {
+     "title": "Amazon Prime Video Announces Melania Trump Docu-Series...",
+     "full_title": "Amazon Prime Video Announces Melania Trump Docu-Series Premiere",
+     "summary": "",
+     "category": "Movies & Series",
+     "x_category": "Entertainment",
+     "topics": [
+      "Movies & TV"
+     ],
+     "time": "2026-11-08T07:39:16.000Z",
+     "url": "https://x.com/i/trending/2119297017042403522",
+     "score": 2.349
+    },
+    {
+     "title": "Disney Jollywood Nights 2026 Kicks Off",
+     "full_title": "Disney Jollywood Nights 2026 Kicks Off with Sold-Out Holiday Magic",
+     "summary": "",
+     "category": "Movies & Series",
+     "x_category": "Entertainment",
+     "topics": [
+      "Movies & TV"
+     ],
+     "time": "2026-11-08T06:12:14.000Z",
+     "url": "https://x.com/i/trending/2119226747556401431",
+     "score": 2.075
+    },
+    {
+     "title": "Taika Waititi's 'Klara and the Sun' Posts Dismal $17 Per...",
+     "full_title": "Taika Waititi's 'Klara and the Sun' Posts Dismal $17 Per Theater Average",
+     "summary": "",
+     "category": "Movies & Series",
+     "x_category": "Entertainment",
+     "topics": [
+      "Movies & TV"
+     ],
+     "time": "2026-11-07T21:03:09.000Z",
      "url": "https://x.com/i/trending/2118836455242097024",
-     "score": 2.392
+     "score": 2.172
     },
     {
-     "title": "From Tops Netflix Streaming Charts",
-     "full_title": "From Tops Netflix Streaming Charts with 1.65 Billion Minutes Viewed",
+     "title": "Black Doves Season 2 Wins Praise for Twisty Spy Thrills",
+     "full_title": "Black Doves Season 2 Wins Praise for Twisty Spy Thrills",
      "summary": "",
      "category": "Movies & Series",
      "x_category": "Entertainment",
      "topics": [
       "Movies & TV"
      ],
-     "time": "2026-11-06T23:22:15.000Z",
-     "url": "https://x.com/i/trending/2118518220248207630",
-     "score": 2.338
-    },
-    {
-     "title": "New Trailer Reveals Brad Pitt's Cliff Booth Return",
-     "full_title": "New Trailer Reveals Brad Pitt's Cliff Booth Return in Fincher-Tarantino Sequel",
-     "summary": "",
-     "category": "Movies & Series",
-     "x_category": "Entertainment",
-     "topics": [
-      "Movies & TV"
-     ],
-     "time": "2026-11-07T06:21:23.000Z",
-     "url": "https://x.com/i/trending/2118694405091610832",
-     "score": 2.455
-    },
-    {
-     "title": "Wildwood Tops Box Office with Stop-Motion Momentum",
-     "full_title": "Wildwood Tops Box Office with Stop-Motion Momentum",
-     "summary": "",
-     "category": "Movies & Series",
-     "x_category": "Entertainment",
-     "topics": [
-      "Movies & TV"
-     ],
-     "time": "2026-11-07T01:54:22.000Z",
-     "url": "https://x.com/i/trending/2118200426482831610",
-     "score": 2.381
-    },
-    {
-     "title": "Black Doves Season 2 Drops",
-     "full_title": "Black Doves Season 2 Drops with Keira Knightley and Ben Whishaw Returning",
-     "summary": "",
-     "category": "Movies & Series",
-     "x_category": "Entertainment",
-     "topics": [
-      "Movies & TV"
-     ],
-     "time": "2026-11-06T18:17:09.000Z",
+     "time": "2026-11-07T19:06:11.000Z",
      "url": "https://x.com/i/trending/2118767663765938516",
-     "score": 2.191
+     "score": 2.265
     },
     {
-     "title": "Sharwanand's Bhogi Trailer Launches at Hyderabad Event",
-     "full_title": "Sharwanand's Bhogi Trailer Launches at Hyderabad Event",
+     "title": "Salman Khan Dismisses Rumors on Maatrubhumi Trailer Launch",
+     "full_title": "Salman Khan Dismisses Rumors on Maatrubhumi Trailer Launch",
      "summary": "",
      "category": "Movies & Series",
      "x_category": "Entertainment",
      "topics": [
       "Movies & TV"
      ],
-     "time": "2026-11-07T08:41:44.000Z",
-     "url": "https://x.com/i/trending/2118986250095100120",
-     "score": 2.306
+     "time": "2026-11-07T13:13:44.000Z",
+     "url": "https://x.com/i/trending/2118735323169698019",
+     "score": 1.98
     }
    ]
   }
